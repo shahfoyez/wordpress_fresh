@@ -1,0 +1,107 @@
+.elementor-bc-flex-widget .elementor-944 .elementor-element.elementor-element-25104b9.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-944 .elementor-element.elementor-element-25104b9.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}/* Start custom CSS for html, class: .elementor-element-4c81ea8 */.foy-cc-30-06 .coupon-icon {
+    /* background: red; */
+    height: 100%;
+    width: 50px;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.foy-cc-30-06 .coupon-icon img {
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+.foy-cc-30-06 button#btnTest1 img {
+    margin-top: -4px;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.foy-cc-30-06 button#btnTest1 span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.foy-cc-30-06 .foy-button {
+  width: 400px;
+  height: 65px;
+border: 1px solid rgba(0, 0, 0, 0.16);
+border-radius: 10.9417px;
+  display: flex;
+  align-items: center;
+  background-color: #fff !important;
+  padding: 0 10px;
+}
+ 
+.foy-cc-30-06 input#fTest1 {
+    
+    width: 100%;
+    font-size: 22px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    color:#184466
+;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    
+    border: transparent !important;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.foy-cc-30-06 button#btnTest1 {
+    border: none;
+    width: 130px;
+    height: 46px !important;
+    background: #3ABF72;
+    border-radius: 9.1181px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+
+.foy-cc-30-06 #demo1 {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: #000;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .foy-cc-30-06 .foy-button {
+    width: 100%;
+  }
+  .foy-cc-30-06 input#fTest {
+      height: 45px !important;
+  }
+  .foy-cc-30-06 button#btnTest {
+    height: 45px !important;
+    font-weight: 500;
+    width: 90px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .foy-cc-30-06 .foy-button{
+      max-width: 90%;
+  }
+  .foy-cc-30-06 button#btnTest {
+        height: 45px !important;
+        font-weight: 500;
+      }
+  .foy-cc-30-06 .foy-button {
+        width: 100% !important;
+        margin: 0 auto;
+        
+    }
+}/* End custom CSS */

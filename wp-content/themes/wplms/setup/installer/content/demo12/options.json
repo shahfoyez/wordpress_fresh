@@ -1,0 +1,705 @@
+{
+  "widget_wplms_instructor_students_widget": {
+    "_multiwidget": 1
+  },
+  "wplms_group_types": [
+    {
+      "id": "science",
+      "sname": "Science",
+      "pname": "science"
+    },
+    {
+      "id": "maths",
+      "sname": "Maths",
+      "pname": "maths"
+    },
+    {
+      "id": "economics",
+      "sname": "Economics",
+      "pname": ""
+    },
+    {
+      "id": "politics",
+      "sname": "Politics",
+      "pname": ""
+    },
+    {
+      "id": "arts",
+      "sname": "Arts",
+      "pname": ""
+    }
+  ],
+  "theme_mods_wplmsblankchildhtheme": {
+    "0": false,
+    "nav_menu_locations": {
+      "footer-menu": 78,
+      "main-menu": 74,
+      "top-menu": 75
+    },
+    "custom_css_post_id": -1,
+    "sidebars_widgets": {
+      "time": 1512116136,
+      "data": {
+        "wp_inactive_widgets": [
+          "archives-2",
+          "meta-2",
+          "categories-2",
+          "recent-posts-2",
+          "recent-comments-2"
+        ],
+        "mainsidebar": {
+          "0": "vibetabs-2",
+          "1": "search-2",
+          "3": "tag_cloud-2",
+          "4": "vibegallery-2"
+        },
+        "bbpress": [],
+        "coursesidebar": {
+          "3": "vibe_course_categories-2",
+          "4": "vibeposts-2"
+        },
+        "searchsidebar": {
+          "1": "vibe_course_categories-3",
+          "2": "vibetestimonials-2"
+        },
+        "shopsidebar": [
+          "woocommerce_price_filter-2",
+          "woocommerce_layered_nav_filters-2",
+          "woocommerce_layered_nav-2",
+          "vibe_woocommerce_carousels-3"
+        ],
+        "productsidebar": {
+          "0": "vibe_course_categories-4",
+          "2": "woocommerce_product_categories-2",
+          "3": "woocommerce_products-2"
+        },
+        "buddypress": {
+          "2": "vibe_course_categories-5"
+        },
+        "checkout": [
+          "vibe_woocommerce_carousels-2",
+          "woocommerce_products-3"
+        ],
+        "topfootersidebar": {
+          "0": "text-2",
+          "3": "text-3"
+        },
+        "bottomfootersidebar": [
+          "vibe_course_categories-6",
+          "vibecertificatecode-2",
+          "tag_cloud-3",
+          "bp_core_whos_online_widget-2"
+        ]
+      }
+    }
+  },
+  "wplms": {
+    "last_tab": "1",
+    "username": "",
+    "logo": "http://wplms.io/demos/demo9/wp-content/themes/wplms/assets/images/logo.png",
+    "mobile_logo": "http://wplms.io/demos/demo9/wp-content/themes/wplms/assets/images/logo.png",
+    "alt_logo": "http://wplms.io/demos/demo9/wp-content/themes/wplms/assets/images/logo.png",
+    "favicon": "http://wplms.io/demos/demo9/wp-content/themes/wplms/assets/images/favicon.png",
+    "header_fix": "0",
+    "course_search": "0",
+    "headertop_content": "Need Help? Call us Today <span class=\"callin\">(00)123 456 789</span>",
+    "header_content": "",
+    "title_bg": "transparent",
+    "title_color": "#ffffff",
+    "sidebars": [
+      "MEGAMENU1"
+    ],
+    "events_sidebar": "mainsidebar",
+    "default_avatar": "http://wplms.io/demos/demo9/wp-content/themes/wplms/assets/images/avatar.jpg",
+    "hide_wp_admin_bar": "",
+    "wp_admin_access": "",
+    "loop_number": "5",
+    "members_view": "0",
+    "single_member_view": "0",
+    "single_member_controls": "",
+    "members_redirect": "",
+    "activity_view": "0",
+    "student_activity": "",
+    "activity_redirect": "",
+    "group_view": "0",
+    "group_redirect": "",
+    "group_create": "1",
+    "blog_create": "1",
+    "members_activity": "0",
+    "activity_tab": "0",
+    "groups_tab": "0",
+    "forums_tab": "0",
+    "activation_redirect": "",
+    "student_field": "Location",
+    "instructor_field_group": "Instructor",
+    "instructor_field": "Speciality",
+    "social_field_group": "Social Profiles",
+    "instructor_paypal_field": "",
+    "instructor_about": "About",
+    "enable_ajax_registration_login": "",
+    "custom_registration_page": "",
+    "sync_student_count": "0",
+    "tab_style_course_layout": "0",
+    "disable_contextmenu_course_status": "0",
+    "course_status_template": "fullscreen",
+    "nextunit_access": "0",
+    "unit_media_lock": "0",
+    "assignment_locking": "0",
+    "course_progressbar": "0",
+    "instructor_add_students": "1",
+    "instructor_change_status": "0",
+    "instructor_assign_badges": "1",
+    "instructor_extend_subscription": "1",
+    "instructor_content_privacy": "0",
+    "stats_visibility": "0",
+    "teacher_form": "",
+    "certificate_page": "",
+    "default_course_avatar": "",
+    "course_duration_display_parameter": "86400",
+    "finished_course_access": "",
+    "notes_style": "1",
+    "show_news": "",
+    "level": "",
+    "location": "",
+    "linkage": "0",
+    "redirect_course_cat_directory": "",
+    "related_courses": "1",
+    "google_fonts_api_key": "",
+    "google_fonts": [
+      "Playfair Display-regular-latin",
+      "Playfair Display-700-latin",
+      "Poppins-300-latin",
+      "Poppins-300italic-latin",
+      "Poppins-regular-latin",
+      "Poppins-600-latin"
+    ],
+    "top_footer_columns": "col-md-3 col-sm-6",
+    "bottom_footer_columns": "col-md-6 col-sm-6",
+    "footer_logo": "https://wplms.io/demos/demo12/wp-content/uploads/2018/10/logo_demo12.png",
+    "copyright": "Template Design © <a title=\"VibeCom\" href=\"http://www.vibethemes.com\">VibeThemes</a>. All rights reserved.",
+    "footerbottom_right": "1",
+    "google_analytics": "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js\"></script>\r\n<script>\r\n$('.ml10 .letters').each(function(){\r\n  $(this).html($(this).text().replace(/([^\\x00-\\x80]|\\w)/g, \"<span class='letter'>$&</span>\"));\r\n});\r\n\r\nanime.timeline({loop: true})\r\n  .add({\r\n    targets: '.ml10 .letter',\r\n    rotateY: [-90, 0],\r\n    duration: 1300,\r\n    delay: function(el, i) {\r\n      return 45 * i;\r\n    }\r\n  }).add({\r\n    targets: '.ml10',\r\n    opacity: 0,\r\n    duration: 1000,\r\n    easing: \"easeOutExpo\",\r\n    delay: 1000\r\n  });\r\n</script>\r\n\r\n<script>\r\n\r\n$(document).ready(function() {\r\n  \r\n\r\n\t  \r\n    var numItems = $('li.fancyTab').length;\r\n\t\t\r\n\t\r\n\t\t\t  if (numItems == 12){\r\n\t\t\t\t\t$(\"li.fancyTab\").width('8.3%');\r\n\t\t\t\t}\r\n\t\t\t  if (numItems == 11){\r\n\t\t\t\t\t$(\"li.fancyTab\").width('9%');\r\n\t\t\t\t}\r\n\t\t\t  if (numItems == 10){\r\n\t\t\t\t\t$(\"li.fancyTab\").width('10%');\r\n\t\t\t\t}\r\n\t\t\t  if (numItems == 9){\r\n\t\t\t\t\t$(\"li.fancyTab\").width('11.1%');\r\n\t\t\t\t}\r\n\t\t\t  if (numItems == 8){\r\n\t\t\t\t\t$(\"li.fancyTab\").width('12.5%');\r\n\t\t\t\t}\r\n\t\t\t  if (numItems == 7){\r\n\t\t\t\t\t$(\"li.fancyTab\").width('14.2%');\r\n\t\t\t\t}\r\n\t\t\t  if (numItems == 6){\r\n\t\t\t\t\t$(\"li.fancyTab\").width('16.666666666666667%');\r\n\t\t\t\t}\r\n\t\t\t  if (numItems == 5){\r\n\t\t\t\t\t$(\"li.fancyTab\").width('20%');\r\n\t\t\t\t}\r\n\t\t\t  if (numItems == 4){\r\n\t\t\t\t\t$(\"li.fancyTab\").width('25%');\r\n\t\t\t\t}\r\n\t\t\t  if (numItems == 3){\r\n\t\t\t\t\t$(\"li.fancyTab\").width('33.3%');\r\n\t\t\t\t}\r\n\t\t\t  if (numItems == 2){\r\n\t\t\t\t\t$(\"li.fancyTab\").width('50%');\r\n\t\t\t\t}\r\n\t\t  \r\n\t \r\n\r\n\t\r\n\t\t});\r\n\r\n$(window).load(function() {\r\n\r\n  $('.fancyTabs').each(function() {\r\n\r\n    var highestBox = 0;\r\n    $('.fancyTab a', this).each(function() {\r\n\r\n      if ($(this).height() > highestBox)\r\n        highestBox = $(this).height();\r\n    });\r\n\r\n    $('.fancyTab a', this).height(highestBox);\r\n\r\n  });\r\n});\r\n</script>\r\n",
+    "social_icons": {
+      "social": [
+        "facebook",
+        "twitter",
+        "dribbble"
+      ],
+      "url": [
+        "#",
+        "#",
+        "#"
+      ]
+    },
+    "social_icons_type": "",
+    "show_social_tooltip": "1",
+    "tincan": "0",
+    "tincan_endpoint": "0",
+    "tincan_user": "0",
+    "tincan_pass": "0",
+    "page_loader": "pageloader2",
+    "site_lock": "",
+    "site_lock_home_page_url": "",
+    "security_key": "Md5!4(xBbYYD",
+    "default_archive": "blog3",
+    "excerpt_length": "20",
+    "page_comments": "",
+    "instructor_commission": "70",
+    "direct_checkout": "3",
+    "thankyou_redirect": "1",
+    "remove_woo_fields": "0",
+    "cache_duration": "0",
+    "google_captcha_public_key": "",
+    "google_captcha_private_key": "",
+    "google_apikey_contact": "",
+    "contact_ll": "43.730325,7.422155",
+    "contact_style": "SATELLITE",
+    "map_zoom": "17",
+    "error404": "",
+    "xmlrpc": "",
+    "disable_versioning": "",
+    "wp_login_screen": "",
+    "credits": "VibeThemes",
+    "demo_switch": "demo9"
+  },
+  "widget_wplms_course_codes": {
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_activity": {
+    "2": {
+      "title": "",
+      "number": "5",
+      "activity": "1",
+      "messages": "1",
+      "friends": "1",
+      "width": "col-md-6 col-sm-12"
+    },
+    "4": {
+      "title": "Student Activity",
+      "number": "5",
+      "activity": "1",
+      "messages": "1",
+      "friends": "1",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_course_progress": {
+    "2": {
+      "title": "Course Progress",
+      "number": "5",
+      "finished": "1",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_contact_users": {
+    "2": {
+      "title": "Contact Instructors",
+      "users": "1",
+      "width": "col-md-6 col-sm-12"
+    },
+    "3": {
+      "title": "Contact Instructors",
+      "users": "1",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_text": {
+    "2": {
+      "title": "Instructor Gallery",
+      "content": "[gallery ids=\"554,553,549,542,545\"]",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_tasks": {
+    "2": {
+      "title": "To do List",
+      "date": "1",
+      "priority": "1",
+      "width": "col-md-6 col-sm-12"
+    },
+    "3": {
+      "title": "To do List",
+      "date": "1",
+      "priority": "1",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_student_stats": {
+    "2": {
+      "title": "Student Statistics",
+      "width": "col-md-12",
+      "course": "1",
+      "quiz": "1",
+      "assignments": "1",
+      "course_chart": "Area",
+      "quiz_chart": "Line",
+      "assignment_chart": "Line"
+    },
+    "4": {
+      "title": "Student Statistics",
+      "width": "col-md-6 col-sm-12",
+      "course": "1",
+      "quiz": "1",
+      "assignments": "1",
+      "course_chart": "Line",
+      "quiz_chart": "Line",
+      "assignment_chart": "Line"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_stats": {
+    "2": {
+      "title": "",
+      "stats": "courses",
+      "width": "col-md-3 col-sm-6"
+    },
+    "3": {
+      "title": "",
+      "stats": "quizes",
+      "width": "col-md-3 col-sm-6"
+    },
+    "4": {
+      "title": "",
+      "stats": "assignments",
+      "width": "col-md-3 col-sm-6"
+    },
+    "5": {
+      "title": "",
+      "stats": "units",
+      "width": "col-md-3 col-sm-6"
+    },
+    "6": {
+      "title": "Finished Courses",
+      "stats": "courses",
+      "width": "col-md-3 col-sm-6"
+    },
+    "7": {
+      "title": "Finished Quizzes",
+      "stats": "quizes",
+      "width": "col-md-3 col-sm-6"
+    },
+    "8": {
+      "title": "Finished Assignments",
+      "stats": "assignments",
+      "width": "col-md-3 col-sm-6"
+    },
+    "9": {
+      "title": "Finished Units",
+      "stats": "units",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_notes_discussion": {
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_mymodules": {
+    "2": {
+      "title": "My Modules",
+      "course": "1",
+      "quiz": "1",
+      "assignment": "1",
+      "unit": "1",
+      "download": "1",
+      "finished": "1",
+      "number": "5",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_news": {
+    "2": {
+      "title": "News",
+      "number": "5",
+      "width": "col-md-6 col-sm-12"
+    },
+    "3": {
+      "title": "",
+      "number": "5",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_line_break": {
+    "2": [],
+    "3": [],
+    "_multiwidget": 1
+  },
+  "widget_wplms_instructor_dash_stats": {
+    "2": {
+      "title": "Woocommerce Earnings",
+      "stats": "woo_commission",
+      "width": "col-md-3 col-sm-6"
+    },
+    "3": {
+      "title": "Number of Courses",
+      "stats": "courses",
+      "width": "col-md-3 col-sm-6"
+    },
+    "4": {
+      "title": "",
+      "stats": "quizes",
+      "width": "col-md-3 col-sm-6"
+    },
+    "5": {
+      "title": "",
+      "stats": "assignments",
+      "width": "col-md-3 col-sm-6"
+    },
+    "7": {
+      "title": "",
+      "stats": "units",
+      "width": "col-md-3 col-sm-6"
+    },
+    "8": {
+      "title": "",
+      "stats": "badges",
+      "width": "col-md-3 col-sm-6"
+    },
+    "9": {
+      "title": "",
+      "stats": "certificates",
+      "width": "col-md-3 col-sm-6"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_instructor_stats": {
+    "2": {
+      "title": "Instructor Statistics",
+      "width": "col-md-12",
+      "range": "10",
+      "max": "10"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_instructor_commission_stats": {
+    "2": {
+      "title": "Instructor Commissions",
+      "width": "col-md-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_announcement": {
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_instructing_modules": {
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_cal": {
+    "2": {
+      "title": "My Course Events",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "wplms_site_style": "demo12",
+  "vibe_customizer": {
+    "header_style": "generic",
+    "login_style": "pop_login",
+    "course_layout": "c6",
+    "header_top_bg": "#52c9a5",
+    "header_top_color": "#ffffff",
+    "login_light": "#313b3d",
+    "login_dark": "#232b2d",
+    "login_light_text": "#666666",
+    "login_dark_text": "#444444",
+    "nav_bg": "#ffffff",
+    "header_bg": "#313b3d",
+    "nav_color": "#3a3a3a",
+    "header_color": "#ffffff",
+    "theme_skin": "",
+    "primary_bg": "#52c9a5",
+    "primary_color": "#FFFFFF",
+    "directory_layout": "d4",
+    "body_bg": "#f9f9f9",
+    "single_dark_color": "#232b2d",
+    "single_dark_text": "#ffffff",
+    "single_light_text": "#ffffff",
+    "single_light_color": "#19354f",
+    "profile_layout": "p4",
+    "footer_style": "single",
+    "custom_css": "\n.block.course7{border-color:rgba(0,0,0,0.2) !important;}\n.page-template-notitle section#content {\nposition: relative;\n    padding-top:0px !important;\n}\n.rev_slider{margin-top:-10px !important;}\n#item-nav{border-radius: 0 0 5px 5px !important;}\n.single-course .course_header, .group_header{background:none !important;}\n.course-pricing,#course-pricing {\n    color: #444 !important;\n}h3.heading{border-bottom:none;}div.item-list-tabs#object-nav li a {\n    font-size: 13px !important;\n}.block .course_button.button{padding:8px 20px !important;}\n\nul.tp-revslider-mainul:after {\n    content: \"\";\n    background: black;\n    opacity: 0.46;\n    width: 100%;\n    z-index: 20;\n    position: fixed;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n}\n\n.ml10 {\n  position: relative;\n  font-weight: 900;\n  font-size: 4em;\n}\n\n\n.ml10 .text-wrapper {\n  position: relative;\n  display: inline-block;\n  padding-top: 0.2em;\n  padding-right: 0.05em;\n  padding-bottom: 0.1em;\n  overflow: hidden;\n}\n\n.ml10 .letter {\n  display: inline-block;\n  line-height: 1em;\n  transform-origin: 0 0;\n}\n\n.btext1{\nfont-size:65px;\nline-height:50px;\ncolor:#52c9a5;\nfont-weight:600;\n    visibility: inherit;\n    font-family: Poppins;\n}\n.btext2{\nfont-size:65px;\nline-height:50px;\ncolor:white;\nfont-weight:600;\n    visibility: inherit;\n    transition: none 0s ease 0s;\n    font-family: Poppins;\n}\n\n\n\n.block.course7{\nborder:none !important;\nbox-shadow: 0px 4px 20px #c5c5c5;\n    border-radius: 7px !important;\nmin-height:494px;\n}\n\n.block.course7:hover{\nbox-shadow: 0 1px 2px rgba(0,0,0,0.15);\n  transition: box-shadow 0.3s ease-in-out;\n}\n\n.box-bg .elementor-column-wrap.elementor-element-populated{\nbackground: linear-gradient(to left TOP, #47e3f3, #8be667) !important; \n}\n.block.course7 .block_content a.button {\n\n    opacity: 1 !important;\n    background: linear-gradient(to left TOP, #47e3f3, #8be667);\n    color: white;\n}\n.progress .bar{\n    background: linear-gradient(to left TOP, #47e3f3, #8be667);\n}\n\n.block.course7 input[type=submit]{\n  background: linear-gradient(to left TOP, #47e3f3, #8be667);\n}\n\n.block.course7{\n    box-shadow: 0px 8px 20px 3px #ececec;\nborder:none !important;\n}\n.block.course7:hover {\n    box-shadow: 0 1px 2px rgb(249, 249, 249);\n}\n.bbutton{\nwhite-space: nowrap;\n    font-size: 16px;\n    line-height: 44px;\n    font-weight: 400;\n    color: rgb(0, 0, 0);\n    font-family: Poppins;\n    text-transform: uppercase;\n    border-radius: 25px;\n    padding: 0px 50px;\n    border: none;\n    background: #f9cc57;\nbox-shadow: 3px 3px white;\ntransition: .35s ease-in-out;\n}\n\n.bbutton:hover{\ntransition: .35s ease-in-out;\nbox-shadow:none;\nbackground: #ffffff9e;\n    color: rgb(82, 201, 165);\n    border: 2px solid rgb(255, 255, 255);\n}\n\n\n.headertop_content p{\ndisplay:inline-block;\nmargin-bottom:0;\n}\n.topmenu li a{\nfont-size:14px;\n}\n\n\n.pgicon:before {\n  display: block;\n  content: ' ';\n  background-image: url(\"https://wplms.io/demos/demo12/wp-content/uploads/2018/10/maps-and-flags.png\");\nwidth: 64px;\n    height: 64px;\nmargin: 0 auto;\nmargin-bottom: 20px;\n}\n\n.badgeicon:before {\n  display: block;\n  content: ' ';\n  background-image: url(\"https://wplms.io/demos/demo12/wp-content/uploads/2018/10/title.png\");\nwidth: 64px;\n    height: 64px;\nmargin: 0 auto;\nmargin-bottom: 20px;\n}\n.assignicon:before {\n  display: block;\n  content: ' ';\n  background-image: url(\"https://wplms.io/demos/demo12/wp-content/uploads/2018/10/resume-1.png\");\nwidth: 64px;\n    height: 64px;\nmargin: 0 auto;\nmargin-bottom: 20px;\n}\n.recordicon:before {\n  display: block;\n  content: ' ';\n  background-image: url(\"https://wplms.io/demos/demo12/wp-content/uploads/2018/10/folder-1.png\");\nwidth: 64px;\n    height: 64px;\nmargin: 0 auto;\nmargin-bottom: 20px;\n}\n.colabicon:before {\n  display: block;\n  content: ' ';\n  background-image: url(\"https://wplms.io/demos/demo12/wp-content/uploads/2018/10/team.png\");\nwidth: 64px;\n    height: 64px;\nmargin: 0 auto;\nmargin-bottom: 20px;\n}\n\n.box-bg,.box-bg >.elementor-element-populated{transition:all 0.5s;}\n\n.box-bg:hover{transform:translateY(-15px);}\n.box-bg:hover >.elementor-element-populated{    \n    box-shadow:0 18px 26px -10px ;\n    border-radius:8px;\n}\n#post-grid-heading h3.heading{\ntext-align:center;\npadding-bottom:100px;\n}\n\n#post-grid-heading h3.heading span{\n background: linear-gradient(to left TOP, #47e3f3, #8be667);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\nfont-size:48px;\n}\n\n#post-grid-heading h3.heading:after{\ncontent: \"Popular Courses\";\n       color: #ececec;\n    position: absolute;\n    font-size: 70px;\n    left: 0;\n    z-index: -1;\n    top: -15px;\n    width: 100%;\n    letter-spacing: 7px;\n}\n\n#instructor_course_section h3.heading{\ntext-align:center;\npadding-bottom:70px;\n}\n\n#instructor_course_section h3.heading span{\n background: linear-gradient(to left TOP, #47e3f3, #8be667);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\nfont-size:45px;\n}\n\n#instructor_course_section h3.heading:after{\ncontent: \"Teacher Courses\";\n        color: #ececec;\n    position: absolute;\n    font-size: 70px;\n    left: 0;\n    z-index: -1;\n    top: -15px;\n    width: 100%;\n    letter-spacing: 7px;\n}\n\n.blog-height.elementor-element.elementor-element-e4c3c05 > .elementor-widget-container{\nheight:700px;\nbackground: linear-gradient(to left TOP, #47e3f3, #8be667);\nborder-radius: 20px;\n}\n\n#disnone{\ndisplay:none;\n}\n\n.btext{\n background: linear-gradient(to left TOP, #47e3f3, #8be667);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\nfont-size:42px;\nfont-weight:700;\n    font-family: \"Poppins\";\n}\n\n.blog-heading{\nfont-size:45px;\npadding-top:20px;\ncolor:#fff;\n}\n.blogsize{\npadding-top:25px;\ndisplay:block;\nmargin:0 auto;\nwidth:200px;\n}\n\n.blog-moretext{\nfont-size: 30px;\n}\n\n.blog-longtext{\n    font-size: 16px;\n    padding: 10px 20px;\n}\n\n.blog-fulltext{\nline-height: 25px;\n    padding-top: 40px;\n}\n\n.blog-height .elementor-text-editor{\npadding:20px;\n}\n\n#blogbox .blog-box-hover{\nbackground-color:#f9f9f9;\n}\n\n\n#newsletter input[type=text]{\n    height: 40px;\n    border-radius: 30px;\n    background: #55b19f70;\n    border: none;\n    padding-left: 10px;\n}\n#newsletter input[type=text]::placeholder{\ncolor:black;\n}\n#instructor_course_section h3.heading span:after , #post-grid-heading h3.heading span:after{\ncontent:\"\";\nborder-bottom:3px solid black;\nposition:absolute;\ntop:50px;\nleft:0;\nright:0;\nwidth:60px;\nmargin:0 auto;\n}\n.footer-contact li{\nline-height:1.6;\npadding:4px 0;\n}\n.moreblog{\n    position: absolute;\n    bottom:-10px;\n    left: 30px;\n    z-index: 1;\n    display: block;\ntransition:  .3s ease-out;\n}\n#blogbox .blog-box-hover:hover .moreblog{\n    background: #5fe4c2;\n    padding: 25px;\n    left: -10px;\n    color: white;\ntransition:  .3s ease-out;\n}\n\n.blog-height .elementor-text-editor {\n    height: 700px;\n}\n.megadrop h4.widgettitle{\nbackground: linear-gradient(to left TOP, #47e3f3, #8be667);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n}\nnav .menu li .menu-sidebar .widget ul li a:hover {\n    color: #000000;\n}\n\nnav .sub-menu {\n    background-color: #ffffffeb;\n}\n\n#separator .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{\npadding-left:0;\npadding-right:0;\n}\n\n\n\n\n\nul#menu-member-type {\n    display: inline-block;background:#19354f;\n}ul#menu-member-type > li{\n    border:none;width:100%;margin:0;padding:0;\n}\nul#menu-member-type > li > a{width:100%;display:block;padding:20px 30px;line-height:1;color:#fff}\nul#menu-member-type > li:hover>a,ul#menu-member-type > li.current-menu-item a{\n    background: #52c9a5\n}\n\nul#menu-group-type {\n    display: inline-block;background:#19354f;\n}ul#menu-group-type > li{\n    border:none;width:100%;margin:0;padding:0;\n}\nul#menu-group-type > li > a{width:100%;display:block;padding:20px 30px;line-height:1;color:#fff}\nul#menu-group-type > li:hover>a,ul#menu-group-type > li.current-menu-item a{\n    background: #52c9a5\n}\n\n.buddysidebar .widget h4.widget_title{\ndisplay:none;\n}\n\n#groups-directory-form .item-list-tabs{\n    margin-bottom: 25px;\n}\n\n.headertop_content{\nline-height: 20px;\n}\n\n.block .block_media img{\n    -webkit-transform: scale(1);\n\ttransform: scale(1);\n\t-webkit-transition: .3s ease-in-out;\n\ttransition: .3s ease-in-out;\n}\n.block .block_media img:hover{\n-webkit-transform: scale(1.3);\n\ttransform: scale(1.2);\n}\n\n\n.block.course7 .block_media{\n    overflow: hidden;\n}\n\n#title {\n    background: linear-gradient(to left TOP, #7ee8bd, #2071bb) !important;\n}\n\n.figure {\n\tposition: relative;\noverflow:hidden;\n}\n .figure::before {\n\tposition: absolute;\n\ttop: 0;\n\tleft: -75%;\n\tz-index: 2;\n\tdisplay: block;\n\tcontent: '';\n\twidth: 50%;\n\theight: 100%;\n\tbackground: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);\n\tbackground: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);\n\t-webkit-transform: skewX(-25deg);\n\ttransform: skewX(-25deg);\n}\n.figure:hover::before {\n\t-webkit-animation: shine .75s;\n\tanimation: shine .75s;\n}\n@-webkit-keyframes shine {\n\t100% {\n\t\tleft: 125%;\n\t}\n}\n@keyframes shine {\n\t100% {\n\t\tleft: 125%;\n\t}\n}\n\n\n.elementor-counter-number{\nmargin-bottom:10px;\n}\n\n\n\n\n#blogcolumn .elementor-widget-container{\nmin-height:300px;\n}\n\n.blogcover{\npadding:20px 20px;\nmargin:20px;\nline-height: 300px;\n}\n.blog-content{\n        background-image: linear-gradient(230deg, #47d3f3 0%, #8be667ab 100%);\n    position: absolute;\n    z-index: 2;\n    margin: 0 auto;\n    display: block;\n    width: auto;\n    transform: translate(-50%, -50%);\n    top: 50%;\n    left: 50%;\n}\n\n.bloglink {\n        padding: 18px 50px;\n    background: #ffffffc7;\n    color: white;\n    text-transform: capitalize;\n\n    font-weight: 700;\n    letter-spacing: 1px;\n   \n}\n\n#blogcolumn .elementor-widget-container:after{\ncontent: \"\";\n    position: absolute;\n    width: 100%;\n    z-index: 1;\n    background: #0000007a;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n}\n\n\n.blog1{\npadding: 0px 0px 0px 0px;\n    background-image: url(https://wplms.io/demos/demo12/wp-content/uploads/2019/01/apps-attractive-beautiful-1462631.jpg);\n    background-position: center center;\n    background-repeat: no-repeat;\n    background-size: cover;\n    height: 100%;\n    position: relative;\n    min-height: 300px;\n}\n\n.blog2{\n    background-image: url(https://wplms.io/demos/demo12/wp-content/uploads/2019/01/book-stack-books-bookshop-264635.jpg);\n    background-position: center center;\n    background-repeat: no-repeat;\n    background-size: cover;\nheight: 100%;\n    position: relative;\n    min-height: 300px;\n}\n\n.blog3{\n    background-image: url(\"https://wplms.io/demos/demo12/wp-content/uploads/2019/01/adult-business-businessman-374820.jpg\")\n    background-position: center center;\n    background-repeat: no-repeat;\n    background-size: cover;\nheight: 100%;\n    position: relative;\n    min-height: 300px;\n}\n\n.blog4{\n    background-image: url(\"https://wplms.io/demos/demo12/wp-content/uploads/2019/01/adult-art-artist-297648.jpg\");\n    background-position: center center;\n    background-repeat: no-repeat;\n    background-size: cover;\nheight: 100%;\n    position: relative;\n    min-height: 300px;\n}\n\n#blogcolumn  .elementor-widget-text-editor{\nmargin-bottom:20px !important;\n}\n\n\n#hero-text{\nposition:absolute;\ntop:40%;\nleft:50%;\ntransform:translate(-50%,-50%);\n}\n.hero-image .elementor-element-populated {\n    padding: 0!important;\n}\n\n#blog-heading .text{\n    background: linear-gradient(to left TOP, #47e3f3, #8be667);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\nfont-size:48px;\n}\n\n#blog-heading h3:after {\n    content: \"READ SOME BLOG\";\n    color: #ececec;\n    position: absolute;\n    font-size: 70px;\n    left: 0;\n    z-index: -1;\n    top: 197px;\n    width: 100%;\n    letter-spacing: 7px;\n}\n#blog-heading h3 span:after {\n    content: \"\";\n    border-bottom: 3px solid black;\n    position: absolute;\n    top: 265px;\n    left: 0;\n    right: 0;\n    width: 60px;\n    margin: 0 auto;\n}\n\n.shortcode-count .numscroller{\ncolor: #f9cc57;\n    font-size: 40px;\n    font-weight: 700;\nmargin-bottom:10px;\ntext-align:center;\n    font-family: \"Roboto\", Sans-serif;\npadding-bottom:10px;\n}\n\n.shortcode-count .elementor-shortcode{\ncolor: #ffffff;\n    font-size: 14px;\n    font-weight: 600;\n    text-transform: uppercase;\n    line-height: 20px;\ntext-align:center;\nfont-family: \"Roboto Slab\", Sans-serif;\nmargin-top:40px;\n}\n\n.block.generic {\n    min-height: 335px;\n}\n\n.block.generic .block_media img{\n    min-height: 335px;\n}\n\n.block.generic .block_media img:after{\n    content: \" \";\n    position: absolute;\nwidth:100%;\ndisplay:block;\nz-index:1;\ntop:0;\nleft:0;\nbottom:0;\nright:0;\nbackground: #000;\n\n}\n\n#testi-heading .text{\n    background: linear-gradient(to left TOP, #47e3f3, #8be667);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\nfont-size:48px;\n}\n\n#testi-heading h3:after {\n    content: \"TESTIMONIALS\";\n    color: #ececec;\n    position: absolute;\n    font-size: 70px;\n    left: 0;\n    z-index: -1;\n    top: -20px;\n    width: 100%;\n    letter-spacing: 7px;\n}\n#testi-heading h3 span:after {\n    content: \"\";\n    border-bottom: 3px solid black;\n    position: absolute;\n    top: 45px;\n    left: 0;\n    right: 0;\n    width: 60px;\n    margin: 0 auto;\n}\n\n\n.testimonials .testimonial-content{\ntext-align:center;\n}\n\n.testimonials .testimonial-content p{\nfont-size:16px;\n}\n\n.testimonials .testimonial-content .author h4{\nfont-size:20px;\n}\n\n.testimonials .testimonial-content .author small{\nfont-size:14px;\n}\n\n .testimonial-content .author a{\n    display: flow-root;\n    width: 100%;\n    transform: translate(40%,0);\n}\n\n\n\n\n\n@media screen and ( max-width:460px){\n.btext1, .btext2{\nfont-size:16px;\nline-height:0px;\n}\n\n.bbutton {\n    font-size: 14px;\n    line-height: 30px;\n    padding: 0px 22px;\n}\n\n.ml10 .text-wrapper{\nline-height:30px;\n}\n.elementor-1844 .elementor-element.elementor-element-2671e30{\nmargin-top:80px;\n}\n\n.box-bg .elementor-element-populated{\nmargin-bottom:20px !important;\n}\n#post-grid-heading h3.heading:after {\n      font-size: 18px;\n    top: -6px;\n\n}\n#post-grid-heading h3.heading span {\n    font-size: 35px;\n}\n\n#counter-heading .elementor-widget-container h2{\nfont-size:35px;\n}\n\n#blog-heading h3:after {\n    font-size: 18px;\n    top: 207px;\n}\n#blog-heading h3 span.text {\n    font-size: 35px;\n}\n\n#testi-heading h3:after {\n    font-size: 18px;\n    top: -14px;\n}\n#testi-heading h3 span.text {\n    font-size: 35px;\n}\n\n.block.testimonials .testimonial-content:nth-child(1){\n    margin-bottom: 50px;\n}\n\n.block.testimonials .testimonial-content:nth-child(2){\n    margin-bottom: 50px;\n}\n\n.elementor-1061 .elementor-element.elementor-element-facfdc4 {\n    padding-top: 120px;\n}\n.blog-height .elementor-text-editor {\n    height: auto;\n}\n#blogbox .blog-box-hover:hover {\n    box-shadow: 0px 11px 20px 0px #e6e6e6;\n    transform: none;\n}\n\n.elementor-1061 .elementor-element.elementor-element-55f0ace > .elementor-widget-container {\n    margin: -305px 0px 0px 0px;\n}\n}\n\n\n.home .vibe_grid .block_media img{object-fit:cover}\n.block.courseitem .block_media {overflow:hidden;}",
+    "group_layout": "g4",
+    "footer_bg": "#efefef",
+    "footer_bottom_bg": "#ffffff",
+    "content_bg": "#ffffff",
+    "logo_size": "48",
+    "footer_bottom_color": "#232d44",
+    "footer_heading_color": "#232d44",
+    "footer_color": "#232d44",
+    "content_color": "#232323",
+    "widget_title_color": "#232323",
+    "h1_font": "Poppins-600-latin",
+    "h2_font": "Poppins-600-latin",
+    "h3_font": "Poppins-600-latin",
+    "h4_font": "Poppins-600-latin",
+    "h5_font": "Poppins-600-latin",
+    "h6_font": "Poppins-600-latin",
+    "widget_title_font": "Poppins-600-latin",
+    "content_link_color": "#555555",
+    "theme_style": "",
+    "body_font_family": "Poppins-300-latin",
+    "logo_top_padding": "4",
+    "logo_bottom_padding": "10",
+    "nav_padding": "28",
+    "top_nav_font": "Poppins-600-latin",
+    "nav_font": "Poppins-regular-latin",
+    "body_font_size": "14",
+    "single_menu_font_family": "Poppins-regular-latin",
+    "heading_font": "Poppins-600-latin",
+    "h3_font_weight": "600",
+    "h4_font_weight": "600",
+    "h5_font_weight": "600",
+    "h6_font_weight": "600",
+    "h1_size": "45",
+    "h2_size": "38",
+    "h1_font_weight": "700",
+    "h3_size": "20",
+    "header_font_size": "16",
+    "nav_font_size": "14",
+    "single_menu_font_size": "13",
+    "heading_size": "32"
+  },
+  "vibe_course_permalinks": {
+    "course_base": "/course",
+    "quiz_base": "/quiz",
+    "unit_base": "/unit",
+    "curriculum_slug": "/curriculum",
+    "members_slug": "/members",
+    "activity_slug": "/activity",
+    "admin_slug": "/admin",
+    "submissions_slug": "/submissions",
+    "stats_slug": "/stats"
+  },
+  "wplms_bp_emails": "3.8.5",
+  "widget_wplms_dash_mycred_stats": {
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_mycred_balance": {
+    "_multiwidget": 1
+  },
+  "lms_settings": {
+    "general": {
+      "vibe_display_course_curriculum": "on",
+      "vibe_display_course_events": "0",
+      "vibe_display_course_activity": "0",
+      "vibe_display_course_drive": "0",
+      "curriculum_accordion": "on",
+      "skip_course_status": "on",
+      "in_course_quiz": "on",
+      "course_curriculum_below_description": "on",
+      "in_course_quiz_paged": "5"
+    }
+  },
+  "wplms_member_types": [
+    {
+      "id": "marketing",
+      "sname": "Marketing",
+      "pname": "marketing"
+    },
+    {
+      "id": "software-training",
+      "sname": "Software Training",
+      "pname": "software training"
+    },
+    {
+      "id": "animation",
+      "sname": "Animation",
+      "pname": "animation"
+    },
+    {
+      "id": "designing",
+      "sname": "Designing",
+      "pname": "designing"
+    },
+    {
+      "id": "gaming",
+      "sname": "Gaming",
+      "pname": "gaming"
+    }
+  ],
+  "wplms_registration_forms": {
+    "sample": []
+  },
+  "theme_mods_wplms": {
+    "0": false,
+    "nav_menu_locations": {
+      "footer-menu": 158,
+      "main-menu": 115,
+      "top-menu": 158,
+      "mobile-menu": 115
+    },
+    "custom_css_post_id": -1,
+    "sidebars_widgets": {
+      "time": 1512116104,
+      "data": {
+        "wp_inactive_widgets": [],
+        "mainsidebar": [
+          "vibetabs-2",
+          "search-2",
+          "bp_course_stats_widget-2",
+          "tag_cloud-2",
+          "vibegallery-2"
+        ],
+        "bbpress": [],
+        "coursesidebar": [
+          "bp_instructor_widget-2",
+          "bp_course_search_widget-2",
+          "bp_course_widget-2",
+          "vibe_course_categories-2",
+          "vibeposts-2"
+        ],
+        "searchsidebar": [
+          "bp_course_search_widget-3",
+          "vibe_course_categories-3",
+          "vibetestimonials-2"
+        ],
+        "shopsidebar": [
+          "woocommerce_price_filter-2",
+          "woocommerce_layered_nav_filters-2",
+          "woocommerce_layered_nav-2",
+          "vibe_woocommerce_carousels-3"
+        ],
+        "productsidebar": [
+          "vibe_course_categories-4",
+          "bp_course_widget-3",
+          "woocommerce_product_categories-2",
+          "woocommerce_products-2"
+        ],
+        "buddypress": [
+          "bp_course_filter_widget-2",
+          "bp_course_search_widget-4",
+          "vibe_course_categories-5",
+          "bp_course_widget-4"
+        ],
+        "checkout": [
+          "vibe_woocommerce_carousels-2",
+          "woocommerce_products-3"
+        ],
+        "topfootersidebar": [
+          "text-2",
+          "bp_course_widget-5",
+          "bp_course_widget-6",
+          "text-3"
+        ],
+        "bottomfootersidebar": [
+          "vibe_course_categories-6",
+          "vibecertificatecode-2",
+          "tag_cloud-3",
+          "bp_core_whos_online_widget-2"
+        ],
+        "MegaMenu": [],
+        "MegaMenu2": [],
+        "student_sidebar": [
+          "wplms_dash_stats-2",
+          "wplms_dash_stats-3",
+          "wplms_dash_stats-4",
+          "wplms_dash_stats-5",
+          "wplms_student_stats-2",
+          "wplms_course_progress-2",
+          "wplms_dash_contact_users-2",
+          "wplms_line_break-2",
+          "wplms_dash_tasks-2",
+          "wplms_dash_news-2"
+        ],
+        "instructor_sidebar": [
+          "wplms_instructor_dash_stats-2",
+          "wplms_instructor_dash_stats-3",
+          "wplms_instructor_dash_stats-4",
+          "wplms_instructor_dash_stats-5",
+          "wplms_instructor_dash_stats-7",
+          "wplms_instructor_dash_stats-8",
+          "wplms_instructor_dash_stats-9",
+          "wplms_instructor_commission_stats-2",
+          "wplms_instructor_stats-2",
+          "wplms_dash_contact_users-3",
+          "wplms_dash_tasks-3",
+          "wplms_line_break-3",
+          "wplms_dash_activity-2",
+          "wplms_dash_news-3",
+          "wplms_annoucement-2",
+          "wplms_dash_text-2"
+        ],
+        "megamenu": []
+      }
+    },
+    "background_image": "",
+    "background_preset": "repeat",
+    "background_position_x": "left",
+    "background_repeat": "repeat"
+  },
+  "widget_wplms_annoucement": {
+    "2": {
+      "title": "Annoucement",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "woocommerce_cart_redirect_after_add": "yes",
+  "woocommerce_enable_ajax_add_to_cart": "no"
+}

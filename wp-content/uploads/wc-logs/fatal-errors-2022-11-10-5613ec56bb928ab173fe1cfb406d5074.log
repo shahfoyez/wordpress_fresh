@@ -1,0 +1,32 @@
+2022-11-10T04:35:05+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 399
+
+2022-11-10T04:35:22+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 400
+
+2022-11-10T04:35:42+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 400
+
+2022-11-10T04:35:57+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 400
+
+2022-11-10T04:36:12+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 400
+
+2022-11-10T04:36:27+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 400
+
+2022-11-10T04:36:42+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 400
+
+2022-11-10T04:38:47+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 400
+
+2022-11-10T04:38:48+00:00 CRITICAL syntax error, unexpected token "$", expecting variable in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 400
+
+2022-11-10T08:22:32+00:00 CRITICAL syntax error, unexpected single-quoted string "post_type", expecting ")" in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 391
+
+2022-11-10T08:22:41+00:00 CRITICAL syntax error, unexpected single-quoted string "post_type", expecting ")" in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 391
+
+2022-11-10T08:24:33+00:00 CRITICAL syntax error, unexpected single-quoted string "title", expecting ")" in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 391
+
+2022-11-10T08:24:43+00:00 CRITICAL syntax error, unexpected single-quoted string "title", expecting ")" in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 391
+
+2022-11-10T08:26:34+00:00 CRITICAL syntax error, unexpected single-quoted string "search_course_title", expecting ")" in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 391
+
+2022-11-10T09:16:59+00:00 CRITICAL syntax error, unexpected token "endwhile" in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 399
+
+2022-11-10T09:17:09+00:00 CRITICAL syntax error, unexpected token "endwhile" in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 399
+

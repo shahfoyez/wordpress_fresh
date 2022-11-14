@@ -1,0 +1,4 @@
+2022-10-26T11:57:38+00:00 CRITICAL Cannot redeclare timer_function() (previously declared in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php:63) in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 220
+
+2022-10-26T11:57:42+00:00 CRITICAL Cannot redeclare timer_function() (previously declared in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php:63) in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 220
+

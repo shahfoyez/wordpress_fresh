@@ -1,0 +1,108 @@
+{
+  "wp_inactive_widgets": [
+    "archives-2",
+    "meta-2",
+    "search-2",
+    "categories-2",
+    "recent-comments-2",
+    "nav_menu-2",
+    "nav_menu-3",
+    "nav_menu-5",
+    "nav_menu-7",
+    "nav_menu-9",
+    "nav_menu-10",
+    "nav_menu-11",
+    "nav_menu-12",
+    "wplms_instructor_dash_stats-2",
+    "wplms_instructor_dash_stats-3",
+    "wplms_instructor_dash_stats-4",
+    "wplms_instructor_dash_stats-5",
+    "wplms_instructor_dash_stats-6",
+    "wplms_instructor_dash_stats-7",
+    "wplms_instructor_dash_stats-8",
+    "wplms_instructor_stats-2",
+    "wplms_instructor_commission_stats-2",
+    "wplms_announcement-2",
+    "wplms_dash_instructing_modules-2",
+    "wplms_dash_cal-2",
+    "vibe_course_categories-2",
+    "nav_menu-8",
+    "text-3",
+    "wplms_course_codes-3",
+    "bp_course_widget-3",
+    "bp_instructor_widget-3",
+    "bp_course_search_widget-3",
+    "bp_course_filter_widget-2",
+    "nav_menu-6"
+  ],
+  "student_sidebar": [
+    "wplms_dash_stats-2",
+    "wplms_dash_stats-5",
+    "wplms_dash_stats-4",
+    "wplms_dash_stats-3",
+    "wplms_student_stats-2",
+    "wplms_course_progress-2",
+    "wplms_dash_activity-2",
+    "wplms_dash_text-3",
+    "wplms_dash_news-2",
+    "wplms_notes_discussion-2",
+    "wplms_dash_text-2",
+    "wplms_dash_tasks-3",
+    "wplms_dash_mymodules-2"
+  ],
+  "instructor_sidebar": [
+    "wplms_instructor_dash_stats-9",
+    "wplms_instructor_dash_stats-10",
+    "wplms_instructor_dash_stats-11",
+    "wplms_instructor_dash_stats-12",
+    "wplms_instructor_dash_stats-13",
+    "wplms_instructor_dash_stats-14",
+    "wplms_instructor_dash_stats-15",
+    "wplms_instructor_commission_stats-3",
+    "wplms_instructor_stats-3",
+    "wplms_announcement-3",
+    "wplms_dash_instructing_modules-3"
+  ],
+  "mainsidebar": [
+    "bp_course_widget-5",
+    "vibecarousel-2"
+  ],
+  "bbpress": [
+    "bp_course_widget-4"
+  ],
+  "coursesidebar": [
+    "bp_course_search_widget-4"
+  ],
+  "searchsidebar": [
+    "recent-posts-2"
+  ],
+  "shopsidebar": [
+    "woocommerce_price_filter-2",
+    "woocommerce_product_search-2",
+    "woocommerce_products-2"
+  ],
+  "productsidebar": [],
+  "buddypress": [
+    "bp_course_filter_widget-3"
+  ],
+  "checkout": [],
+  "topfootersidebar": [
+    "nav_menu-17",
+    "nav_menu-18",
+    "nav_menu-19",
+    "nav_menu-20"
+  ],
+  "bottomfootersidebar": [
+    "custom_html-3"
+  ],
+  "MegaMenu": [
+    "nav_menu-13",
+    "nav_menu-14",
+    "nav_menu-15",
+    "nav_menu-16"
+  ],
+  "MegaMenu2": [],
+  "MEGAMENU1": [],
+  "orphaned_widgets_1": [],
+  "array_version": 3
+}

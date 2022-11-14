@@ -1,0 +1,614 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS Assignments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-10 12:46+0530\n"
+"PO-Revision-Date: 2019-09-10 12:46+0530\n"
+"Last-Translator: VibeThemes <vibethemes@gmail.com>\n"
+"Language-Team: Atlasyar <info@atlasyar.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "نام کاربری  Envato Marketplace خود را وارد کنید"
+
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Envato Marketplace API Key خود را وارد کنید."
+
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "API \"set\" یک پارامتر اجباری می باشد."
+
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Envato Marketplace \"item ID\" یک پارامتر اجباری می باشد."
+
+#: autoupdate/class-plugin-update.php:377
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "خطا HTTP غیر مترقبه در درخواست API رخ داده است."
+
+#: autoupdate/class-plugin-update.php:377
+#: autoupdate/class-plugin-update.php:542
+msgid "Try again"
+msgstr "دوباره تلاش کنید"
+
+#: autoupdate/class-plugin-update.php:418
+msgid "An unknown error occurred"
+msgstr "یک خطای ناشناخته رخ داده است"
+
+#: autoupdate/class-plugin-update.php:454
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+"این افزونه به روز شده است، اما نمی تواند دوباره فعال شود. لطفا آن را به صورت "
+"دستی دوباره فعال کنید.."
+
+#: autoupdate/class-plugin-update.php:455
+msgid "Plugin reactivated successfully. "
+msgstr "افزونه باموفقیت دوباره فعال شد."
+
+#: autoupdate/class-plugin-update.php:477
+msgid " Plugin Updates"
+msgstr " به روز رسانی های افزونه"
+
+#: autoupdate/class-plugin-update.php:516
+msgid "Username: "
+msgstr "نام کاربری:"
+
+#: autoupdate/class-plugin-update.php:520
+msgid "Email: "
+msgstr "ایمیل:"
+
+#: autoupdate/class-plugin-update.php:526
+msgid "Key: "
+msgstr "کلید:"
+
+#: autoupdate/class-plugin-update.php:532
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+"<p>بروزرسانی افزونه شما <span style=\"color:green\">فعال است</span></p>"
+
+#: autoupdate/class-plugin-update.php:536
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>ورودی شما <span style=\"color:red\">نامعتبر است</span>,به روز رسانی "
+"خودکار<span style=\"color:red\">فعال نیست</span>.</p>"
+
+#: autoupdate/class-plugin-update.php:537
+msgid "Edit Key"
+msgstr "ویرایش کلید"
+
+#: autoupdate/class-plugin-update.php:541
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "<p>قادر به اعتبارسنجی فعالسازی بروزرسانی نمی باشد.</p>"
+
+#: autoupdate/class-plugin-update.php:547
+msgid "Add Key"
+msgstr "افزودن کلید"
+
+#: autoupdate/class-plugin-update.php:633
+msgid "User name"
+msgstr "نام کاربری"
+
+#: autoupdate/class-plugin-update.php:639
+msgid "Email"
+msgstr "ایمیل"
+
+#: autoupdate/class-plugin-update.php:648
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "نام کاربری Themefores (برای بروزرسانی اتوماتیک)"
+
+#: includes/assignment_statistics.php:37
+msgid "Overview"
+msgstr ""
+
+#: includes/assignment_statistics.php:156
+msgid "Prev"
+msgstr ""
+
+#: includes/assignment_statistics.php:165
+msgid "Next"
+msgstr ""
+
+#: includes/assignments.php:106 includes/assignments_functions.php:218
+#: includes/assignments_functions.php:299
+#: includes/class.assignment-process.php:125
+#: includes/class.assignment-process.php:155
+msgid "Security check failed !"
+msgstr "بررسی امنیتی شکست خورد!"
+
+#: includes/assignments.php:111 includes/assignments_functions.php:304
+msgid " Incorrect User selected."
+msgstr " کاربر نادرست انتخاب شده است"
+
+#: includes/assignments.php:116 includes/assignments_functions.php:309
+msgid " Incorrect Assignment"
+msgstr "تکلیف نادرست"
+
+#: includes/assignments.php:124
+msgid "SUBMISSION"
+msgstr "ارسال"
+
+#: includes/assignments.php:142 includes/assignments.php:145
+#: includes/assignments.php:895 includes/assignments.php:898
+msgid "Download Attachment"
+msgstr "دانلود ضمیمه"
+
+#: includes/assignments.php:198
+msgid "Enter marks out of "
+msgstr ""
+
+#: includes/assignments.php:199
+msgid "REMARKS (if any)"
+msgstr "نکات و تذکرات"
+
+#: includes/assignments.php:201
+msgid "See Old Remarks"
+msgstr ""
+
+#: includes/assignments.php:207
+msgid "Attach File"
+msgstr ""
+
+#: includes/assignments.php:211 includes/assignments.php:1804
+msgid "Allowed file types"
+msgstr "انواع فایل های مجاز"
+
+#: includes/assignments.php:211 includes/assignments.php:1804
+msgid "maximum file size"
+msgstr "حداکثر سایز فایل"
+
+#: includes/assignments.php:211 includes/assignments.php:1804
+msgid "MB(s)"
+msgstr ""
+
+#: includes/assignments.php:218 includes/assignments.php:1833
+msgid "Drop files here"
+msgstr ""
+
+#: includes/assignments.php:220 includes/assignments.php:1835
+msgid "Select Files"
+msgstr ""
+
+#: includes/assignments.php:228 includes/assignments.php:1843
+msgid "Please do not close the window until process is completed"
+msgstr ""
+
+#: includes/assignments.php:307
+msgid ""
+"There is a space in file name .Please remove space from your filename and "
+"try to re-upload"
+msgstr ""
+
+#: includes/assignments.php:331 includes/assignments.php:1970
+msgid "  already exists. Please rename the file and try again."
+msgstr ""
+
+#: includes/assignments.php:345 includes/assignments.php:1984
+msgid "Are you sure you want to quit uploading?"
+msgstr ""
+
+#: includes/assignments.php:404 includes/assignments.php:2041
+msgid "File type not allowed"
+msgstr ""
+
+#: includes/assignments.php:438
+msgid "GIVE MARKS"
+msgstr "نمره دهی"
+
+#: includes/assignments.php:516
+msgid "Under Evaluation"
+msgstr ""
+
+#: includes/assignments.php:675
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: includes/assignments.php:728
+msgid "Reset Assignment for User"
+msgstr ""
+
+#: includes/assignments.php:729
+msgid "Evaluate Assignment : "
+msgstr ""
+
+#: includes/assignments.php:737
+msgid "No submissions found !"
+msgstr ""
+
+#: includes/assignments.php:790
+msgid "Assignment Results"
+msgstr ""
+
+#: includes/assignments.php:805
+#, php-format
+msgid "Viewing %d out of %d"
+msgstr ""
+
+#: includes/assignments.php:842
+msgid "Results Available"
+msgstr ""
+
+#: includes/assignments.php:844
+msgid "Results Awaited"
+msgstr ""
+
+#: includes/assignments.php:881
+msgid "My Submission"
+msgstr ""
+
+#: includes/assignments.php:920
+msgid "See Instructor Remarks"
+msgstr ""
+
+#: includes/assignments.php:923
+msgid "Marks Obtained"
+msgstr ""
+
+#: includes/assignments.php:945
+msgid "Assignment Attachment deleted."
+msgstr "ضمیمه تکلیف حذف شد."
+
+#: includes/assignments.php:1012
+msgid "Upload Assignment"
+msgstr "آپلود تکلیف"
+
+#: includes/assignments.php:1550 includes/assignments.php:2140
+#: includes/assignments.php:2144 includes/assignments.php:2146
+#: includes/assignments.php:2148 includes/assignments.php:2150
+#: includes/assignments.php:2152 includes/assignments.php:2154
+#: includes/assignments.php:2156 includes/assignments.php:2160
+msgid "ERROR:"
+msgstr "خطا:"
+
+#: includes/assignments.php:1550 includes/assignments.php:2140
+msgid "File you upload must be valid file type"
+msgstr "فایل آپلودی شما باید از انواع فایل های معتبر باشد"
+
+#: includes/assignments.php:1550 includes/assignments.php:2140
+msgid ", and under "
+msgstr ", و زیر "
+
+#: includes/assignments.php:1550 includes/assignments.php:2140
+msgid "MB(s)!"
+msgstr ""
+
+#: includes/assignments.php:1632
+msgid "Security check failed contact administrator"
+msgstr ""
+
+#: includes/assignments.php:1725 includes/assignments_functions.php:277
+msgid "Invalid ID"
+msgstr "شناسه نامعتبر"
+
+#: includes/assignments.php:1730
+msgid "Attachment removed!"
+msgstr ""
+
+#: includes/assignments.php:1732 includes/assignments.php:1736
+#: includes/assignments_functions.php:283
+msgid "Unable to remove previous submissions"
+msgstr "قادر به حذف ارسال های قبلی نمی باشد"
+
+#: includes/assignments.php:1809
+msgid "RECENTLY UPLOADED"
+msgstr "جدیدا آپلود شده"
+
+#: includes/assignments.php:2144 includes/assignments.php:2160
+msgid "Please upload an Attachment."
+msgstr "لطفا یک ضمیمه آپلود کنید."
+
+#: includes/assignments.php:2146
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+"سایز فایل آپلودی شما از میزان مجاز تعیین شده در دایرکتیو upload_max_filesize "
+"در فایل php.ini تجاوز کرده است."
+
+#: includes/assignments.php:2148
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr ""
+"سایز فایل آپلودی شما از میزان مجاز تعیین شده در دایرکتیو MAX_FILE_SIZE در "
+"فرم HTML تجاوز کرده است."
+
+#: includes/assignments.php:2150
+msgid "The uploaded file was only partially uploaded. Please try again later."
+msgstr "تنها بخشی از فایل شما آپلود شد. لطفا دوباره تلاش کنید."
+
+#: includes/assignments.php:2152
+msgid "Missing a temporary folder."
+msgstr "یک پوشه موقت از دست رفته است."
+
+#: includes/assignments.php:2154
+msgid "Failed to write file to disk."
+msgstr "نوشتن فایل بر روی دیسک شکست خورد."
+
+#: includes/assignments.php:2156
+msgid "A PHP extension stopped the file upload."
+msgstr "یک PHP extension مانع از آپلود فایل شد."
+
+#: includes/assignments.php:2182 includes/assignments.php:2187
+msgid "Attachment:"
+msgstr "ضمیمه:"
+
+#: includes/assignments.php:2307
+msgid "Download"
+msgstr "دانلود"
+
+#: includes/assignments.php:2381
+msgid "Delete Attachment"
+msgstr "حذف ضمیمه"
+
+#: includes/assignments.php:2415
+#, php-format
+msgid ""
+"Regarding WPLMS Assignments Upload Assignment Functionality : It seems like "
+"your PHP installation is missing \"mime_content_type\" or \"finfo_file\" "
+"functions which are crucial for detecting file types of uploaded "
+"attachments. Please update your PHP installation OR be very careful with "
+"allowed file types, so intruders won't be able to upload dangerous code to "
+"your website! | <a href=\"%1$s\">Hide Notice</a>"
+msgstr ""
+"باتوجه به قابلیت آپلود تکلیف در WPLMS Assignments : به نظر می رسد که نصب PHP "
+"شما فاقد عملکرد های  \"mime_content_type\" و \"finfo_file\" می باشد که برای "
+"تشخیص انواع فایل ضمایم آپلود شده ضروری می باشد. لطفا نصب PHP خود را "
+"بروزرسانی کرده یا خیلی مراقب نوع فایل های مجاز باشید تا مزاحمان قادر به "
+"آپلود کدهای خطرناک به وبسایت شما نباشند!  | <a href=\"%1$s\">مخفی کردن "
+"هشدار</a>"
+
+#: includes/assignments_functions.php:28
+msgid "Submitted by"
+msgstr "ارسال شده توسط"
+
+#: includes/assignments_functions.php:28
+msgid "<span>"
+msgstr "<span>"
+
+#: includes/assignments_functions.php:31
+msgid "Assignment awaiting moderation."
+msgstr "تکلیف در انتظار بررسی می باشد."
+
+#. translators: 1: date, 2: time
+#: includes/assignments_functions.php:38
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s در %2$s"
+
+#: includes/assignments_functions.php:38
+msgid "(Edit)"
+msgstr "(ویرایش)"
+
+#: includes/assignments_functions.php:95
+#: includes/assignments_functions.php:103
+msgid "Time Remaining"
+msgstr "زمان باقیمانده"
+
+#: includes/assignments_functions.php:96
+msgid "Days"
+msgstr "روز"
+
+#: includes/assignments_functions.php:104
+msgid "Hours"
+msgstr "ساعت"
+
+#: includes/assignments_functions.php:104
+msgid "Minutes"
+msgstr "دقیقه"
+
+#: includes/assignments_functions.php:120
+msgid "ENDED"
+msgstr ""
+
+#: includes/assignments_functions.php:147
+msgid "START ASSIGNMENT"
+msgstr "شروع تکلیف"
+
+#: includes/assignments_functions.php:169
+msgid "CONTINUE ASSIGNMENT"
+msgstr "ادامه تکلیف"
+
+#: includes/assignments_functions.php:190
+#: includes/assignments_functions.php:200
+msgid "SUBMIT ASSIGNMENT"
+msgstr "ارسال تکلیف"
+
+#: includes/assignments_functions.php:195
+msgid "INACTIVE COURSE "
+msgstr "غیرفعال کردن دوره"
+
+#: includes/assignments_functions.php:208
+msgid "CHECK RESULTS"
+msgstr "مشاهده نتیجه"
+
+#: includes/assignments_functions.php:234
+#: includes/class.assignment-process.php:142
+#: includes/class.assignment-process.php:184
+msgid "Assignment can not be re-started"
+msgstr "تکلیف قادر به شروع مجدد نمی باشد"
+
+#: includes/assignments_functions.php:247
+#: includes/class.assignment-process.php:118
+msgid "TIME EXPIRED, PLEASE SUBMIT THE ASSIGNMENT"
+msgstr "زمان انجام تکلیف به اتمام رسیده است. لطفا تکلیف را ارسال کنید"
+
+#: includes/assignments_functions.php:255
+msgid "Assignment "
+msgstr "تکلیف"
+
+#: includes/assignments_functions.php:255
+msgid " submitted by student "
+msgstr " توسط دانشجو ارسال شد"
+
+#: includes/assignments_functions.php:256
+msgid "Assignment submitted by Student"
+msgstr "تکلیف توسط دانشجو ارسال شد"
+
+#: includes/assignments_functions.php:281
+msgid " previous submissions removed ! Reloading page ..."
+msgstr " ارسال قبلی حذف شد ! بارگذاری مجدد صفحه ..."
+
+#: includes/assignments_functions.php:321
+msgid "Assignment Reset for Selected User"
+msgstr "تکلیف برای کاربر انتخاب شده بازنشانی شد"
+
+#: includes/assignments_functions.php:323
+#, fuzzy
+msgid "Could not find Assignment submission for user."
+msgstr "قادر به یافتن تکلیف برای دانشجو نمی باشد. لطفا با مدیر تماس بگیرید."
+
+#: includes/assignments_functions.php:354
+msgid "Assignment results available"
+msgstr "نتایج تکلیف در دسترس است"
+
+#: includes/assignments_functions.php:377
+msgid "Unlimited"
+msgstr ""
+
+#: includes/assignments_functions.php:382
+msgid " days"
+msgstr " روز"
+
+#: includes/assignments_functions.php:385
+msgid "ASSIGNMENT : "
+msgstr "تکلیف : "
+
+#: includes/assignments_functions.php:387
+msgid "MARKS : "
+msgstr "نمره : "
+
+#: includes/assignments_functions.php:387
+msgid "DURATION : "
+msgstr "مدت زمان : "
+
+#: includes/assignments_functions.php:406
+msgid " out of "
+msgstr " از"
+
+#: includes/assignments_functions.php:406
+msgid " PENDING"
+msgstr "[در انتظار بررسی]"
+
+#: includes/assignments_functions.php:448
+msgid "Assignment scores"
+msgstr "نمره تکلیف"
+
+#: includes/class.assignment-process.php:366 wplms-assignments.php:70
+msgid ""
+"This step is irreversible. All Assignment submissions would be reset for "
+"this user. Are you sure you want to Reset the Assignment for this User? "
+msgstr ""
+"این مرحله غیر قابل برگشت است. همه تکالیف ارسال شده برای این دانشجو بازنشانی "
+"خواهد شد. آیا از انجام این کار مطمئن هستید؟"
+
+#: includes/class.assignment-process.php:367 wplms-assignments.php:71
+msgid "Confirm, Assignment reset for this User"
+msgstr "تائید، تکلیف برای  دانشجو بازنشانی شود"
+
+#: includes/class.assignment-process.php:368 wplms-assignments.php:72
+msgid "Marks Saved"
+msgstr "نمره ذخیره شد"
+
+#: includes/class.assignment-process.php:369 wplms-assignments.php:73
+msgid "Assignment Marks Saved"
+msgstr "نمره تکلیف ذخیره شد"
+
+#: includes/class.assignment-process.php:370 wplms-assignments.php:74
+msgid "Cancel"
+msgstr "لغو"
+
+#: includes/class.assignment-process.php:371 wplms-assignments.php:75
+msgid "Incorrect file format "
+msgstr "فرمت نادرست فایل "
+
+#: includes/class.assignment-process.php:372 wplms-assignments.php:76
+msgid "File already selected "
+msgstr "فایل، در حال حاضر انتخاب شده "
+
+#: includes/class.assignment-process.php:466
+msgid "Maximum Marks"
+msgstr ""
+
+#: includes/class.frontend.php:28
+#, fuzzy
+msgid "ADD ASSIGNMENT"
+msgstr "شروع تکلیف"
+
+#: includes/class.frontend.php:40
+#, fuzzy
+msgid "Select existing assignment"
+msgstr "دانشجو تکلیف را شروع کرد"
+
+#: includes/class.frontend.php:42
+#, fuzzy
+msgid "Search an assignment"
+msgstr " در تکلیف:"
+
+#: includes/class.frontend.php:44
+#, fuzzy
+msgid "Set Assignment"
+msgstr "تکلیف"
+
+#: includes/class.frontend.php:48
+#, fuzzy
+msgid "Create new assignment"
+msgstr " تکلیف را شروع کرد"
+
+#: includes/class.frontend.php:50
+#, fuzzy
+msgid "Assignment title"
+msgstr "تکلیف"
+
+#: includes/class.frontend.php:52
+#, fuzzy
+msgid "Create Assignment"
+msgstr "تکلیف نادرست"
+
+#~ msgid "You've obtained "
+#~ msgstr "شما بدست آورید "
+
+#~ msgid "Check Results"
+#~ msgstr "مشاهده نتیجه"
+
+#~ msgid "Additional Remarks form Instructor"
+#~ msgstr "نکات و تذکرات استاد"
+
+#~ msgid "Student submitted assignment "
+#~ msgstr "دانشجو تکلیف را ارسال کرد"
+
+#~ msgid "Student "
+#~ msgstr "دانشجو"
+
+#~ msgid " submitted the assignment  "
+#~ msgstr " تکلیف را ارسال کرد"
+
+#~ msgid "Assignment %s was reset by the Instructor for user %s"
+#~ msgstr "تکلیف %s توسط استاد برای کاربر %s بازنشانی شد "
+
+#~ msgid "Instructor Evaluated the Assignment for User"
+#~ msgstr "استاد تکلیف را برای دانشجو ارزیابی کرد"
+
+#~ msgid " was evaluated by the Instructor for user"
+#~ msgstr " توسط استاد برای دانشجو ارزیابی شد"
+
+#~ msgid ""
+#~ "This step is irreversible. All Assignment subsmissions would be reset for "
+#~ "this user. Are you sure you want to Reset the Assignment for this User? "
+#~ msgstr ""
+#~ "این مرحله غیر قابل برگشت است. همه تکالیف ارسال شده برای این دانشجو "
+#~ "بازنشانی خواهد شد. آیا از انجام این کار مطمئن هستید؟"
+
+#~ msgid "Your assignment is awaiting moderation."
+#~ msgstr "تکلیف شما منتظر تائید مدیر می باشد."

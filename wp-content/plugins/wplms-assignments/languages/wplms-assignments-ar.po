@@ -1,0 +1,591 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS Assignments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-10 12:45+0530\n"
+"PO-Revision-Date: 2019-09-10 12:45+0530\n"
+"Last-Translator: VibeThemes <vibethemes@gmail.com>\n"
+"Language-Team: VibeThemes <vibethemes@gmail.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: autoupdate/class-plugin-update.php:377
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+#: autoupdate/class-plugin-update.php:377
+#: autoupdate/class-plugin-update.php:542
+msgid "Try again"
+msgstr "حاول مرة اخرى"
+
+#: autoupdate/class-plugin-update.php:418
+msgid "An unknown error occurred"
+msgstr "حدثت مشكلة غير معروفة"
+
+#: autoupdate/class-plugin-update.php:454
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+
+#: autoupdate/class-plugin-update.php:455
+msgid "Plugin reactivated successfully. "
+msgstr "تم اعادة تفعيل الاضافة بنجاح"
+
+#: autoupdate/class-plugin-update.php:477
+msgid " Plugin Updates"
+msgstr "تحديثات الاضافة"
+
+#: autoupdate/class-plugin-update.php:516
+msgid "Username: "
+msgstr "اسم المستخدم:"
+
+#: autoupdate/class-plugin-update.php:520
+msgid "Email: "
+msgstr "بريد الكتروني:"
+
+#: autoupdate/class-plugin-update.php:526
+msgid "Key: "
+msgstr "مفتاح:"
+
+#: autoupdate/class-plugin-update.php:532
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr ""
+
+#: autoupdate/class-plugin-update.php:536
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+
+#: autoupdate/class-plugin-update.php:537
+msgid "Edit Key"
+msgstr ""
+
+#: autoupdate/class-plugin-update.php:541
+msgid "<p>Unable to validate update activation.</p>"
+msgstr ""
+
+#: autoupdate/class-plugin-update.php:547
+msgid "Add Key"
+msgstr "اضف مفتاح"
+
+#: autoupdate/class-plugin-update.php:633
+msgid "User name"
+msgstr "اسم المستخدم"
+
+#: autoupdate/class-plugin-update.php:639
+msgid "Email"
+msgstr "بريد الكتروني"
+
+#: autoupdate/class-plugin-update.php:648
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr ""
+
+#: includes/assignment_statistics.php:37
+msgid "Overview"
+msgstr ""
+
+#: includes/assignment_statistics.php:156
+msgid "Prev"
+msgstr ""
+
+#: includes/assignment_statistics.php:165
+msgid "Next"
+msgstr ""
+
+#: includes/assignments.php:106 includes/assignments_functions.php:218
+#: includes/assignments_functions.php:299
+#: includes/class.assignment-process.php:125
+#: includes/class.assignment-process.php:155
+msgid "Security check failed !"
+msgstr "فشل الفحص الأمني"
+
+#: includes/assignments.php:111 includes/assignments_functions.php:304
+msgid " Incorrect User selected."
+msgstr "تحديد المستخدم غير صحيح"
+
+#: includes/assignments.php:116 includes/assignments_functions.php:309
+msgid " Incorrect Assignment"
+msgstr "تعيين غير صحيح"
+
+#: includes/assignments.php:124
+msgid "SUBMISSION"
+msgstr "التسليم"
+
+#: includes/assignments.php:142 includes/assignments.php:145
+#: includes/assignments.php:895 includes/assignments.php:898
+msgid "Download Attachment"
+msgstr "تحميل المرفق"
+
+#: includes/assignments.php:198
+msgid "Enter marks out of "
+msgstr ""
+
+#: includes/assignments.php:199
+msgid "REMARKS (if any)"
+msgstr "تحديدات (اذا كان هناك)"
+
+#: includes/assignments.php:201
+msgid "See Old Remarks"
+msgstr ""
+
+#: includes/assignments.php:207
+msgid "Attach File"
+msgstr ""
+
+#: includes/assignments.php:211 includes/assignments.php:1804
+msgid "Allowed file types"
+msgstr ""
+
+#: includes/assignments.php:211 includes/assignments.php:1804
+msgid "maximum file size"
+msgstr ""
+
+#: includes/assignments.php:211 includes/assignments.php:1804
+msgid "MB(s)"
+msgstr ""
+
+#: includes/assignments.php:218 includes/assignments.php:1833
+msgid "Drop files here"
+msgstr ""
+
+#: includes/assignments.php:220 includes/assignments.php:1835
+msgid "Select Files"
+msgstr ""
+
+#: includes/assignments.php:228 includes/assignments.php:1843
+msgid "Please do not close the window until process is completed"
+msgstr ""
+
+#: includes/assignments.php:307
+msgid ""
+"There is a space in file name .Please remove space from your filename and "
+"try to re-upload"
+msgstr ""
+
+#: includes/assignments.php:331 includes/assignments.php:1970
+msgid "  already exists. Please rename the file and try again."
+msgstr ""
+
+#: includes/assignments.php:345 includes/assignments.php:1984
+msgid "Are you sure you want to quit uploading?"
+msgstr ""
+
+#: includes/assignments.php:404 includes/assignments.php:2041
+msgid "File type not allowed"
+msgstr ""
+
+#: includes/assignments.php:438
+msgid "GIVE MARKS"
+msgstr "اعطاء علامات"
+
+#: includes/assignments.php:516
+msgid "Under Evaluation"
+msgstr ""
+
+#: includes/assignments.php:675
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: includes/assignments.php:728
+msgid "Reset Assignment for User"
+msgstr ""
+
+#: includes/assignments.php:729
+msgid "Evaluate Assignment : "
+msgstr ""
+
+#: includes/assignments.php:737
+msgid "No submissions found !"
+msgstr ""
+
+#: includes/assignments.php:790
+msgid "Assignment Results"
+msgstr ""
+
+#: includes/assignments.php:805
+#, php-format
+msgid "Viewing %d out of %d"
+msgstr ""
+
+#: includes/assignments.php:842
+msgid "Results Available"
+msgstr ""
+
+#: includes/assignments.php:844
+msgid "Results Awaited"
+msgstr ""
+
+#: includes/assignments.php:881
+msgid "My Submission"
+msgstr ""
+
+#: includes/assignments.php:920
+msgid "See Instructor Remarks"
+msgstr ""
+
+#: includes/assignments.php:923
+msgid "Marks Obtained"
+msgstr ""
+
+#: includes/assignments.php:945
+msgid "Assignment Attachment deleted."
+msgstr "تم حذف التعيين المرفق."
+
+#: includes/assignments.php:1012
+msgid "Upload Assignment"
+msgstr "رفع تعيين"
+
+#: includes/assignments.php:1550 includes/assignments.php:2140
+#: includes/assignments.php:2144 includes/assignments.php:2146
+#: includes/assignments.php:2148 includes/assignments.php:2150
+#: includes/assignments.php:2152 includes/assignments.php:2154
+#: includes/assignments.php:2156 includes/assignments.php:2160
+msgid "ERROR:"
+msgstr "خطأ:"
+
+#: includes/assignments.php:1550 includes/assignments.php:2140
+msgid "File you upload must be valid file type"
+msgstr "الملف الذي تريد ارفاقة يجب ان يكون نوعه مدعوم"
+
+#: includes/assignments.php:1550 includes/assignments.php:2140
+msgid ", and under "
+msgstr ", وأسفل"
+
+#: includes/assignments.php:1550 includes/assignments.php:2140
+msgid "MB(s)!"
+msgstr ""
+
+#: includes/assignments.php:1632
+msgid "Security check failed contact administrator"
+msgstr ""
+
+#: includes/assignments.php:1725 includes/assignments_functions.php:277
+msgid "Invalid ID"
+msgstr "اي دي غير مقبولة"
+
+#: includes/assignments.php:1730
+msgid "Attachment removed!"
+msgstr ""
+
+#: includes/assignments.php:1732 includes/assignments.php:1736
+#: includes/assignments_functions.php:283
+msgid "Unable to remove previous submissions"
+msgstr "لا يمكن حذف التسليمات السابقة"
+
+#: includes/assignments.php:1809
+msgid "RECENTLY UPLOADED"
+msgstr ""
+
+#: includes/assignments.php:2144 includes/assignments.php:2160
+msgid "Please upload an Attachment."
+msgstr "الرجاء رفع مرفق."
+
+#: includes/assignments.php:2146
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "حجم الملف المرفوع اكبر من المسموح"
+
+#: includes/assignments.php:2148
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr "حجم الملف المرفوع اكبر من المسموح"
+
+#: includes/assignments.php:2150
+msgid "The uploaded file was only partially uploaded. Please try again later."
+msgstr "تم رفع جزء من الملف المرفوع، الرحاء حاول مرة اخرى لاحقا."
+
+#: includes/assignments.php:2152
+msgid "Missing a temporary folder."
+msgstr "مجلد مؤقت مفقود."
+
+#: includes/assignments.php:2154
+msgid "Failed to write file to disk."
+msgstr "فشل في الكتابة على ملف في القرص."
+
+#: includes/assignments.php:2156
+msgid "A PHP extension stopped the file upload."
+msgstr "اضافة في البي اتش بي اوقفت رفع الملف."
+
+#: includes/assignments.php:2182 includes/assignments.php:2187
+msgid "Attachment:"
+msgstr ""
+
+#: includes/assignments.php:2307
+msgid "Download"
+msgstr ""
+
+#: includes/assignments.php:2381
+msgid "Delete Attachment"
+msgstr "حذف المرفق"
+
+#: includes/assignments.php:2415
+#, php-format
+msgid ""
+"Regarding WPLMS Assignments Upload Assignment Functionality : It seems like "
+"your PHP installation is missing \"mime_content_type\" or \"finfo_file\" "
+"functions which are crucial for detecting file types of uploaded "
+"attachments. Please update your PHP installation OR be very careful with "
+"allowed file types, so intruders won't be able to upload dangerous code to "
+"your website! | <a href=\"%1$s\">Hide Notice</a>"
+msgstr ""
+
+#: includes/assignments_functions.php:28
+msgid "Submitted by"
+msgstr "تم التسليم بواسطة"
+
+#: includes/assignments_functions.php:28
+msgid "<span>"
+msgstr "<span>"
+
+#: includes/assignments_functions.php:31
+msgid "Assignment awaiting moderation."
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: includes/assignments_functions.php:38
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: includes/assignments_functions.php:38
+msgid "(Edit)"
+msgstr "(تعديل)"
+
+#: includes/assignments_functions.php:95
+#: includes/assignments_functions.php:103
+msgid "Time Remaining"
+msgstr "الوقت المتبقي"
+
+#: includes/assignments_functions.php:96
+msgid "Days"
+msgstr "أيام"
+
+#: includes/assignments_functions.php:104
+msgid "Hours"
+msgstr "ساعات"
+
+#: includes/assignments_functions.php:104
+msgid "Minutes"
+msgstr "دقائق"
+
+#: includes/assignments_functions.php:120
+msgid "ENDED"
+msgstr ""
+
+#: includes/assignments_functions.php:147
+msgid "START ASSIGNMENT"
+msgstr "ابدأ التعيين"
+
+#: includes/assignments_functions.php:169
+msgid "CONTINUE ASSIGNMENT"
+msgstr "استمرار التعيين"
+
+#: includes/assignments_functions.php:190
+#: includes/assignments_functions.php:200
+msgid "SUBMIT ASSIGNMENT"
+msgstr "تسليم التعيين"
+
+#: includes/assignments_functions.php:195
+msgid "INACTIVE COURSE "
+msgstr "دورة غير مفعلة"
+
+#: includes/assignments_functions.php:208
+msgid "CHECK RESULTS"
+msgstr "فحص النتائج"
+
+#: includes/assignments_functions.php:234
+#: includes/class.assignment-process.php:142
+#: includes/class.assignment-process.php:184
+msgid "Assignment can not be re-started"
+msgstr "لا يمكن اعادة التعيين"
+
+#: includes/assignments_functions.php:247
+#: includes/class.assignment-process.php:118
+msgid "TIME EXPIRED, PLEASE SUBMIT THE ASSIGNMENT"
+msgstr "الوقت انتهى، الرجاء تسليم التعيين"
+
+#: includes/assignments_functions.php:255
+msgid "Assignment "
+msgstr "تعيين"
+
+#: includes/assignments_functions.php:255
+msgid " submitted by student "
+msgstr ""
+
+#: includes/assignments_functions.php:256
+msgid "Assignment submitted by Student"
+msgstr ""
+
+#: includes/assignments_functions.php:281
+msgid " previous submissions removed ! Reloading page ..."
+msgstr "انحذفت التسليمات السابقة، اعادة تحديث الصفحة ..."
+
+#: includes/assignments_functions.php:321
+msgid "Assignment Reset for Selected User"
+msgstr "اعادة التعيين للمستخدم المحدد"
+
+#: includes/assignments_functions.php:323
+#, fuzzy
+msgid "Could not find Assignment submission for user."
+msgstr "غير قادر على ايجاد اي تعيين لهذا المستخدم. تواصل مع المدير"
+
+#: includes/assignments_functions.php:354
+msgid "Assignment results available"
+msgstr "نتائج التعيين متوفرة"
+
+#: includes/assignments_functions.php:377
+msgid "Unlimited"
+msgstr ""
+
+#: includes/assignments_functions.php:382
+msgid " days"
+msgstr "أيام"
+
+#: includes/assignments_functions.php:385
+msgid "ASSIGNMENT : "
+msgstr "تعيين:"
+
+#: includes/assignments_functions.php:387
+msgid "MARKS : "
+msgstr "علامات:"
+
+#: includes/assignments_functions.php:387
+msgid "DURATION : "
+msgstr "مدة:"
+
+#: includes/assignments_functions.php:406
+msgid " out of "
+msgstr "من"
+
+#: includes/assignments_functions.php:406
+msgid " PENDING"
+msgstr "معلق"
+
+#: includes/assignments_functions.php:448
+msgid "Assignment scores"
+msgstr ""
+
+#: includes/class.assignment-process.php:366 wplms-assignments.php:70
+msgid ""
+"This step is irreversible. All Assignment submissions would be reset for "
+"this user. Are you sure you want to Reset the Assignment for this User? "
+msgstr ""
+
+#: includes/class.assignment-process.php:367 wplms-assignments.php:71
+msgid "Confirm, Assignment reset for this User"
+msgstr "تأكيد، التعيين تتم اعادته لهذا المستخدم"
+
+#: includes/class.assignment-process.php:368 wplms-assignments.php:72
+msgid "Marks Saved"
+msgstr "العلامات محفوظة"
+
+#: includes/class.assignment-process.php:369 wplms-assignments.php:73
+msgid "Assignment Marks Saved"
+msgstr "علامات التعيين محفوظة"
+
+#: includes/class.assignment-process.php:370 wplms-assignments.php:74
+msgid "Cancel"
+msgstr "الغاء"
+
+#: includes/class.assignment-process.php:371 wplms-assignments.php:75
+msgid "Incorrect file format "
+msgstr ""
+
+#: includes/class.assignment-process.php:372 wplms-assignments.php:76
+msgid "File already selected "
+msgstr ""
+
+#: includes/class.assignment-process.php:466
+msgid "Maximum Marks"
+msgstr ""
+
+#: includes/class.frontend.php:28
+#, fuzzy
+msgid "ADD ASSIGNMENT"
+msgstr "ابدأ التعيين"
+
+#: includes/class.frontend.php:40
+#, fuzzy
+msgid "Select existing assignment"
+msgstr "بدأ تعيين الطالب"
+
+#: includes/class.frontend.php:42
+#, fuzzy
+msgid "Search an assignment"
+msgstr "في تعيين:"
+
+#: includes/class.frontend.php:44
+#, fuzzy
+msgid "Set Assignment"
+msgstr "تعيين"
+
+#: includes/class.frontend.php:48
+#, fuzzy
+msgid "Create new assignment"
+msgstr "بدأ التعيين"
+
+#: includes/class.frontend.php:50
+#, fuzzy
+msgid "Assignment title"
+msgstr "تعيين"
+
+#: includes/class.frontend.php:52
+#, fuzzy
+msgid "Create Assignment"
+msgstr "تعيين غير صحيح"
+
+#~ msgid "You've obtained "
+#~ msgstr "لقد تم التحصيل"
+
+#~ msgid "Check Results"
+#~ msgstr "فحص نتائج"
+
+#~ msgid "Additional Remarks form Instructor"
+#~ msgstr "تحديدات اضافية من المدرس"
+
+#, fuzzy
+#~ msgid "Student submitted assignment "
+#~ msgstr "بدأ تعيين الطالب"
+
+#~ msgid "Student "
+#~ msgstr "طالب"
+
+#, fuzzy
+#~ msgid " submitted the assignment  "
+#~ msgstr "بدأ التعيين"
+
+#, fuzzy
+#~ msgid "Assignment %s was reset by the Instructor for user %s"
+#~ msgstr "تم اعادتها بواسطة المدرب للمستخدم"
+
+#~ msgid "Instructor Evaluated the Assignment for User"
+#~ msgstr "قيم المدرس التعيين للمستخدم"
+
+#~ msgid " was evaluated by the Instructor for user"
+#~ msgstr "تم تقييمه بواسطة المدرس لهذا المستخدم"

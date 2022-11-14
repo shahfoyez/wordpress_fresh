@@ -1,0 +1,451 @@
+{
+  "theme_mods_wplms": {
+    "0": false,
+    "nav_menu_locations": {
+      "main-menu": "152",
+      "mobile-menu": "152"
+    },
+    "custom_css_post_id": -1
+  },
+  "wplms": {
+    "last_tab": "1",
+    "username": "",
+    "apikey": "",
+    "logo": "https://wplms.io/demos/demo15/wp-content/uploads/2019/05/logo.png",
+    "mobile_logo": "https://wplms.io/demos/demo15/wp-content/themes/wplms/assets/images/logo.png",
+    "alt_logo": "https://wplms.io/demos/demo15/wp-content/uploads/2019/05/logo.png",
+    "favicon": "https://wplms.io/demos/demo15/wp-content/uploads/2019/04/logo_demo11-2-1.png",
+    "header_fix": "1",
+    "course_search": "0",
+    "headertop_content": "",
+    "header_content": "",
+    "title_bg": "background:#23b7b7;",
+    "title_color": "#ffffff",
+    "events_sidebar": "",
+    "default_avatar": "",
+    "hide_wp_admin_bar": "",
+    "wp_admin_access": "",
+    "loop_number": "5",
+    "single_member_controls": "",
+    "members_redirect": "",
+    "student_activity": "",
+    "activity_redirect": "",
+    "group_redirect": "",
+    "activation_redirect": "",
+    "student_field": "Location",
+    "instructor_field_group": "Instructor",
+    "instructor_field": "Speciality",
+    "social_field_group": "Social Profiles",
+    "instructor_paypal_field": "",
+    "instructor_about": "About",
+    "enable_ajax_registration_login": "",
+    "custom_registration_page": "",
+    "instructor_add_students": "1",
+    "instructor_assign_badges": "1",
+    "instructor_extend_subscription": "1",
+    "teacher_form": "",
+    "certificate_page": "",
+    "default_course_avatar": "",
+    "course_duration_display_parameter": "86400",
+    "finished_course_access": "",
+    "notes_style": "",
+    "show_news": "",
+    "level": "",
+    "location": "",
+    "redirect_course_cat_directory": "",
+    "google_fonts_api_key": "",
+    "google_fonts": [
+      "Rubik-300-latin",
+      "Rubik-regular-latin",
+      "Rubik-500-latin",
+      "Rubik-700-latin"
+    ],
+    "top_footer_columns": "col-md-3 col-sm-6",
+    "bottom_footer_columns": "col-md-12",
+    "footer_logo": "https://wplms.io/demos/demo15/wp-content/uploads/2019/05/logo.png",
+    "copyright": "",
+    "footerbottom_right": "1",
+    "google_analytics": "",
+    "social_icons": {
+      "social": [
+        "facebook",
+        "twitter",
+        "dribbble"
+      ],
+      "url": [
+        "#",
+        "#",
+        "#"
+      ]
+    },
+    "social_icons_type": "",
+    "tincan_endpoint": "0",
+    "tincan_user": "0",
+    "tincan_pass": "0",
+    "page_loader": "",
+    "site_lock": "",
+    "site_lock_home_page_url": "",
+    "security_key": "fgtaj6awwS)b",
+    "default_archive": "",
+    "excerpt_length": "20",
+    "page_comments": "",
+    "instructor_commission": "70",
+    "direct_checkout": "2",
+    "cache_duration": "0",
+    "google_captcha_public_key": "",
+    "google_captcha_private_key": "",
+    "google_apikey_contact": "",
+    "contact_ll": "43.730325,7.422155",
+    "map_zoom": "17",
+    "error404": "",
+    "xmlrpc": "",
+    "disable_versioning": "",
+    "wp_login_screen": "",
+    "credits": "VibeThemes"
+  },
+  "vibe_course_permalinks": {
+    "course_base": "/course",
+    "quiz_base": "/quiz",
+    "unit_base": "/unit",
+    "curriculum_slug": "/curriculum",
+    "members_slug": "/members",
+    "activity_slug": "/activity",
+    "admin_slug": "/admin",
+    "submissions_slug": "/submissions",
+    "stats_slug": "/stats"
+  },
+  "widget_wplms_course_codes": {
+    "3": {
+      "title": "Add Code",
+      "placeholder": "Place holder text"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_activity": {
+    "2": {
+      "title": "Student Activity",
+      "number": "5",
+      "activity": "1",
+      "messages": "1",
+      "friends": "1",
+      "width": "col-md-4 col-sm-6"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_course_progress": {
+    "2": {
+      "title": "Course Progress",
+      "number": "5",
+      "finished": "1",
+      "width": "col-md-4 col-sm-6"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_contact_users": {
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_text": {
+    "2": {
+      "title": "",
+      "content": "",
+      "width": "col-md-12"
+    },
+    "3": {
+      "title": "",
+      "content": "",
+      "width": "col-md-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_tasks": {
+    "3": {
+      "title": "To do List",
+      "date": "1",
+      "priority": "1",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_student_stats": {
+    "2": {
+      "title": "Student Statistics",
+      "width": "col-md-12",
+      "course": "1",
+      "quiz": "1",
+      "assignments": "1",
+      "course_chart": "Area",
+      "quiz_chart": "Line",
+      "assignment_chart": "Line"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_stats": {
+    "2": {
+      "title": "Courses",
+      "stats": "courses",
+      "width": "col-md-3 col-sm-6"
+    },
+    "3": {
+      "title": "Quizzes",
+      "stats": "quizes",
+      "width": "col-md-3 col-sm-6"
+    },
+    "4": {
+      "title": "Assignments",
+      "stats": "assignments",
+      "width": "col-md-3 col-sm-6"
+    },
+    "5": {
+      "title": "Units",
+      "stats": "units",
+      "width": "col-md-3 col-sm-6"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_notes_discussion": {
+    "2": {
+      "title": "Notes& Discussion",
+      "number": "5",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_mymodules": {
+    "2": {
+      "title": "My Modules",
+      "course": "1",
+      "quiz": "1",
+      "assignment": "1",
+      "unit": "1",
+      "download": "1",
+      "number": "10",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_news": {
+    "2": {
+      "title": "News",
+      "number": "5",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_line_break": {
+    "_multiwidget": 1
+  },
+  "widget_wplms_instructor_dash_stats": {
+    "2": {
+      "title": "Quizzes",
+      "stats": "quizes",
+      "width": "col-md-3 col-sm-6"
+    },
+    "3": {
+      "title": "Courses",
+      "stats": "courses",
+      "width": "col-md-3 col-sm-6"
+    },
+    "4": {
+      "title": "Earnings",
+      "stats": "woo_commission",
+      "width": "col-md-3 col-sm-6"
+    },
+    "5": {
+      "title": "# students",
+      "stats": "students",
+      "width": "col-md-3 col-sm-6"
+    },
+    "6": {
+      "title": "#Certificates",
+      "stats": "certificates",
+      "width": "col-md-3 col-sm-6"
+    },
+    "7": {
+      "title": "# Badges",
+      "stats": "badges",
+      "width": "col-md-3 col-sm-6"
+    },
+    "8": {
+      "title": "# Units",
+      "stats": "units",
+      "width": "col-md-3 col-sm-6"
+    },
+    "9": {
+      "title": "Earnings",
+      "stats": "woo_commission",
+      "width": "col-md-3 col-sm-6"
+    },
+    "10": {
+      "title": "Courses",
+      "stats": "courses",
+      "width": "col-md-3 col-sm-6"
+    },
+    "11": {
+      "title": "Quizzes",
+      "stats": "quizes",
+      "width": "col-md-3 col-sm-6"
+    },
+    "12": {
+      "title": "Units",
+      "stats": "units",
+      "width": "col-md-3 col-sm-6"
+    },
+    "13": {
+      "title": "Badges",
+      "stats": "badges",
+      "width": "col-md-3 col-sm-6"
+    },
+    "14": {
+      "title": "Certificates",
+      "stats": "certificates",
+      "width": "col-md-3 col-sm-6"
+    },
+    "15": {
+      "title": "Students",
+      "stats": "students",
+      "width": "col-md-3 col-sm-6"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_instructor_stats": {
+    "2": {
+      "title": "Instructor Statistics",
+      "width": "col-md-12",
+      "range": "10",
+      "max": "10"
+    },
+    "3": {
+      "title": "Instructor Statistics",
+      "width": "col-md-12",
+      "range": "10",
+      "max": "10"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_instructor_commission_stats": {
+    "2": {
+      "title": "Instructor Stats",
+      "width": "col-md-12"
+    },
+    "3": {
+      "title": "Instructor Stats",
+      "width": "col-md-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_announcement": {
+    "2": {
+      "title": "Announcements",
+      "width": "col-md-6 col-sm-12"
+    },
+    "3": {
+      "title": "announcement",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_instructing_modules": {
+    "2": {
+      "title": "Instructing Modules",
+      "course": "1",
+      "quiz": "1",
+      "assignment": "1",
+      "unit": "1",
+      "number": "5",
+      "width": "col-md-6 col-sm-12"
+    },
+    "3": {
+      "title": "Instructing Modules",
+      "course": "1",
+      "quiz": "1",
+      "assignment": "1",
+      "unit": "1",
+      "number": "6",
+      "width": "col-md-6 col-sm-12"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_instructor_students_widget": {
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_cal": {
+    "2": {
+      "title": "My Course Events",
+      "width": "col-md-4 col-sm-6"
+    },
+    "_multiwidget": 1
+  },
+  "widget_wplms_dash_push_notifications": {
+    "_multiwidget": 1
+  },
+  "vibe_customizer": {
+    "theme_skin": "",
+    "header_style": "transparent",
+    "footer_bg": "#1c1c1c",
+    "footer_bottom_bg": "#1c1c1c",
+    "single_light_color": "#3d3d3d",
+    "single_dark_color": "#23b8b7",
+    "single_dark_text": "#3d3d3d",
+    "single_light_text": "#ff4177",
+    "content_bg": "#ffffff",
+    "body_bg": "#ffffff",
+    "nav_bg": "#ffffff",
+    "header_bg": "#ffffff",
+    "header_top_bg": "#23b8b7",
+    "footer_bottom_color": "#f9f9f9",
+    "footer_heading_color": "#f9f9f9",
+    "footer_color": "#f9f9f9",
+    "content_color": "#444444",
+    "nav_color": "#23b9b7",
+    "widget_title_color": "#444444",
+    "header_color": "#ffffff",
+    "header_top_color": "#ffffff",
+    "primary_bg": "#ff4177",
+    "login_style": "pop_login",
+    "h1_font": "Rubik-500-latin",
+    "h2_font": "Rubik-500-latin",
+    "h3_font": "Rubik-regular-latin",
+    "h4_font": "Rubik-regular-latin",
+    "h5_font": "Rubik-300-latin",
+    "h6_font": "Rubik-300-latin",
+    "widget_title_font": "Rubik-regular-latin",
+    "content_link_color": "#555555",
+    "theme_style": "",
+    "directory_layout": "d4",
+    "course_layout": "c5",
+    "primary_color": "#FFFFFF",
+    "footer_style": "",
+    "profile_layout": "p4",
+    "group_layout": "g4",
+    "body_font_family": "Rubik-regular-latin",
+    "custom_css": ".material header { border: none;box-shadow: none;}\n.single-course.c5 .course_header{background:#23b7b7;\n}\n.banner-text{\n   position:absolute !important;\n   top:1%;\n   z-index:1;\n   width:100%;\n}\nheader nav>.menu>li>a strong, header.sleek .topmenu>li>a {font-weight:500;}\nnav .menu li a{margin-left:0;\n    font-weight: 500;}\nnav .sub-menu {left:auto;}\n.sleek .topmenu>li:first-child a>span {\n    max-width: 105px;\n    line-height: 1.5;\n    padding-left: 5px;\n    overflow: inherit;\n}\n.banner-text h3 {\ntext-transform: capitalize; \nletter-spacing: 0; \nline-height: 60px;\nmargin:0;\ncolor:#fff;\nfont-size: 40px;\nfont-weight:400;\n}\n.heading h1 {\ntext-transform: capitalize !important;\nletter-spacing: 0 !important;\nfont-size: 60px !important;\nline-height: 74px !important;\nfont-weight: 600 !important;\ncolor: #000 !important;\nborder-bottom: 0;\n}\n.heading {\nborder-bottom: 0;\n }\n.bottom-text{\nfont-size:18px;\ncolor: #fff;\nmargin-top:15px;\n}\n.button{\n    padding: 14px 22px;\n    font-size: 15px;\n    text-transform: capitalize;\n    box-shadow: 3px 3px #fff !important;\n    font-weight: 500;\n}\n.button:hover {\nbox-shadow: none !important;\ntransition: all 0.3s ease 0s;\npadding: 16px 24px;\n}\n.bannerbtn .button{\n    padding: 14px 22px;\n    font-size: 15px;\n    text-transform: capitalize;\n    box-shadow: 3px 3px #fff !important;\n}\n.bannerbtn .button:hover {\nbox-shadow: none !important;\ntransition: all 0.3s ease 0s;\npadding: 16px 24px;\n}\n.elementor-widget-heading .elementor-heading-title {\nfont-family: \"Rubik\";\nfont-weight: 500;\n/*background: linear-gradient(to left TOP, #4063e2, #349add);*/\nbackground: linear-gradient(to left TOP, #000, #000);\n-webkit-background-clip: text;\n-webkit-text-fill-color: transparent;\nfont-size: 37px;\nfont-weight: 500;\ntext-transform:none;\n}\n\n.home .block .block_media img {\nposition:relative;    \nfilter: blur(8px);\n-webkit-filter: blur(2px);\n -webkit-transition: 0.6s ease;\n transition: 0.6s ease;\n}\n.home .block_content{\n    padding: 26px 26px 20px 0px;\n}\n.home .block_title{\noverflow: hidden;\npadding: 4px 50px 15px 23px;\nborder-left: 3px solid #ff4177;\nline-height: 1.22;\nmargin-top:0 !important;\n}\n.home .block_title a{\ncolor:#fff;font-size: 22px;font-weight: 500;\ndisplay: -webkit-box;\n  -webkit-line-clamp: 1;\n  -webkit-box-orient: vertical;  \n  overflow: hidden;}\n\n.home p.block_description {color:#fff;display: -webkit-box;\n  -webkit-line-clamp: 4;\n  -webkit-box-orient: vertical;  \n  overflow: hidden;}\n.block .block_title, .block .block_description, .block .button{margin-left:26px;}\n\n.home .block .block_content { \nbackground:#00000059;\nposition:absolute;\nz-index:1;\nbottom:30px;\nheight:calc(100% - 30px); \nwidth:calc(100% - 30px);\nheight:100%;\nbottom:0;\n}\n.home .block .block_media {\nposition:relative;\n}\n\n.home .block.course7{margin-bottom:0;}\n.home .block_content .button {\npadding: 10px 15px;\nfont-size: 12px;\nmargin-top:15px;\nfont-weight: 500;\nbox-shadow:3px 3px #fff;\n}\n.home .block_content .button:hover {\nbox-shadow: none;\ntransition: all 0.3s ease 0s;\npadding: 13px 18px;\n}\n.home .block_content strong{\ncolor:#fff;font-weight: 500;display: block;padding-left: 26px;display: none;}\n\n#offering h3{height:40px;}\n.bkg-svg{\n    width: 105%;\n    min-width: 1930px; \n    left: 0;\n    z-index: 1;\n    bottom: 22px;\n    position: absolute;\n}\n\n.opacity {opacity: 1;}\n.shaper{height: 770px;}\n.shaper1{height: 70px;}\n.feature-block h3{\n    color: #ff4177 !important;\n    font-family: Rubik !important;\n    font-weight: 400 !important;\n    font-size: 20px !important;\n}\n.feature-block p{color: #2f2f2f !important;font-family: Rubik !important;}\n.play-button .video-play {\nbox-shadow: 0 0 40px rgba(0,0,0,0.2);\nborder-radius: 100px;\nheight: 48px;\nwidth: 48px;\nmargin: 0 auto;\nheight:76px;\nwidth:76px;\n}\n.best-teacher-text {\npadding: 31px 0 7px;\nfont-size: 2em;\nline-height: 1.33;\ncolor:#fff;\n}\n.handpicked-text {\nfont-size: 1.2em;\nline-height: 1.23;\ncolor: #ffffff;\nmargin: 0 auto;\n}\n.play-button .play {\nwidth: 76px;\nheight: 76px;\n}\n.wplms_registration_form {\npadding: 40px 30px;\nbackground: #32cac8;\nborder-radius: 5px;\nbox-shadow: 0 5px 20px rgba(0,0,0,0.2);\ncolor: #fff;\nfloat:right;\nwidth:100%;\n}\n.wplms_registration_form legend, .wplms_registration_form label {\n    border: none;\n    font-size: 16px;\n    color: #fff;\n    margin: 0 0 10px;\n    font-weight: 500;\n\n}\n.wplms_registration_form input {\n    width: 100%;\n    border-radius: 5px;\n    border: 2px solid rgba(255,255,255,0.2);\n    padding: 5px;\n    margin-bottom: 8px;\n}\n.submit_registration_form.button{\n    padding: 10px 22px;\n    background: #1d1d1d;\n    font-weight: 500;\n    margin-top: 22px;\n    border-radius: 2px;\n    box-shadow: 3px 3px #fff;\n}\n.submit_registration_form.button:hover {\nbox-shadow: none;\ntransition: all 0.3s ease 0s;\npadding: 12px 24px;\n}\n .testimonial_item:before {\n    font-family: \"FontAwesome\";\n    content: \"\\f10d\";\n    display: inline-block;\n    vertical-align: middle;\n    color: #efcb6b !important;\n    margin: -18px auto 20px;\n    font-size: 80px;\n    padding: 8px 15px 8px 0;\n    border-radius: 50%;\n    position: absolute;\n    z-index: -1;\n}\n\n .testimonial p {\n padding-bottom: 30px;\n    font-size: 16px;\n    padding-top: 90px;\n    color: #000;\n    font-style: italic;\n}\n\n .testimonial .author h4 {\n     font-size: 18px;\n     color: #000;\n     padding-bottom: 0;\n     margin: 0;\n    padding-top: 10px;\n}\n.testimonial .author small {\ncolor:#000;\nfont-size:14px;\n}\n .testimonial .link{\ncolor:#000;\n}\n\n.app-store strong{\n    display: block;\n    font-size: 35px;\n    line-height: 1.29;\n    padding-bottom: 11px;\n    font-weight: 300;\n    color: #ff4177;\n}\n.app-store em{\nfont-size: 16px;\nline-height: 1.67;\npadding-bottom: 50px;\ncolor:#000;\ndisplay:block;\n}\n.app-store .app-image img{width:30%;margin-right:20px;}\n.app-store .mobile-image img{width:80%;}\n.counter {\n    position:absolute;\n    top:270px;\n    margin-left:-108px;\n      width: 100%;\n}         \n.vibe_countdown_item .countdown_label {                                                                                               font-size: .9rem !important;                                                                                                  font-weight: 500 !important;                                                                                       left: -3px !important;                                                                                                }\n.numscroller:after{\ncontent:\"+\";\nposition:relative;\ntop:0;\n}\n.numscroller{\nfont-size:35px;\n    color: #444444;\n}\n.countdown .elementor-shortcode{font-size:32px;    color: #ff4177;}\n\n.banner-text .button{margin-top: 60px;}\n.feature-block img{width:74px;}\n\n.countdown .elementor-widget-container{\nbackground-image: url(https://wplms.io/demos/demo15/wp-content/uploads/2019/04/ebf30bcadf7a8e8e9f9e10af767b5cb9.png);\n    height: 125px;\n    z-index: 0;\n    position: absolute;\n   width: 300px;\n    top: 0;\n    left: 0;\n    background-size: cover;\n    background-position-y: -69px;\n}\n.widget .widget_title, strong, .course_details li , .single-course.c5 #item-nav div.item-list-tabs#object-nav li a, .course_instructor a, #item-admins h3{\n    font-weight: 500 !important;\n}\n.single-course.c3 .course_header {\n    margin-bottom: inherit;\n}\n#buddypress .item-list-tabs#subnav ul li.switch_view a {line-height: 4px;}\n#content #buddypress {\n    margin-top: 0px;\npadding-top:30px;\n    background: #f9f9f9;\n}\n#buddypress div.item-list-tabs{\n    background-color: #23b9b7;\n}\n#buddypress .item-list-tabs ul li a {\n    font-size: 12px;\n    font-weight: 500;\n    color: #fff !important;\n}\n#buddypress div.item-list-tabs ul li a span{\n    background: #ffd86f;\n}\n.create-group-button{background-color: #ffd86f !important;}\n.create-group-button:hover{    padding: 27px 40px 28px !important;}\n#buddypress div.item-list-tabs ul li a:hover span{color:#000;}\n.single-course.c5 .course_header #item-header div#item-header-content h1 {color: #f9f9f9;}\n.footertitle, footer h4 {font-size: 18px;font-weight: 500;}\n.footerwidget ul li a{line-height:26px;font-size:13px;}\n#custom_html-3 .textwidget.custom-html-widget{font-size:12px;}\n#footerbottom #footerlogo {\n    max-width: 130px;\n    margin: -15px 10px 0 -10px;}\n@keyframes shadow-pulse\n{\n     0% {\n          box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);\n     }\n     100% {\n          box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);\n     }\n}\n.wrapper{ padding: 20px;} \n\n@keyframes shadow-pulse-big\n{\n  0% {\n    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);\n  }\n  100% {\n    box-shadow: 0 0 0 70px rgba(0, 0, 0, 0);\n  }\n}\n\n.example-1 i{\nmargin: 0 40px;\nwidth: 70px;\nheight: 70px;\nfont: 35px/70px 'Barlow Semi Condensed', sans-serif;\ntext-transform: uppercase;\nletter-spacing: 1px;\ncolor: #fff;\ntext-align: center;\nbackground: transparent;\nborder-radius: 50%;\nanimation: shadow-pulse 1s infinite;\npadding-left: 10px;\nborder: 2px solid white;\n}\n#signup_form input{color: #000000 !important;}\n.progressbar_wrap {display: none;}\n.block_content .button.full {padding: 10px 15px !important;width: auto;}\n\n.sleek #vibe_bp_login:after {left: 140px;}\n#vibe_bp_login {background: #232b2dd1;}\n#vibe_bp_login ul+ul {background:transparent;}\n#content #buddypress{padding-top: 0px;}\n#buddypress div.item-list-tabs#object-nav, #buddypress div.item-list-tabs{background-color: #23b8b7c7;}\n#buddypress .item-list-tabs ul li a:hover{\nbackground: #23b8b7;}\n.course_instructor span {color: #fff;}\n.single-course.c5 #item-nav div.item-list-tabs#object-nav li a {color: #ffffff;}\n.course_timeline li.active a, .course_timeline li a{color:#fff;}.page-template-start .course_timeline h4,.unit_prevnext a{color:#fff;}\n.unit_prevnext{border-color:#fff !important;}\n.sub-menu, nav .sub-menu {background-color: #ffffffe8; border-radius: 5px;}\n   .sub-menu li a{\n font-size: 14px !important;\n    padding: 15px 30px !important;\n}\n.sidemenu li.active a{background-color: #3e3e3e;}\n\n.abt-top-text{\n    font-size: 53px;\n    line-height: 53px;\n    color: rgb(255, 255, 255);\n    letter-spacing: -1px;\n}\n.abt-bottom-text{\n    font-size: 16px;\n    line-height: 28px;\n    color: rgb(255, 255, 255);\n}\n.popup-vimeo{color:transparent;font-size:16px;    padding: 30px;\n    height: 30px;\n    width: 100px;}\n.popup-vimeo:hover,.popup-vimeo:focus,.popup-vimeo:active{color:transparent;}\n.video-iframe iframe{border: 15px solid #ffe7a7;border-radius: 12px;}\n\n\n.block.course7 {\n    border: none;\n    border-radius: 0;\n    overflow: hidden;\n}\n.block.course7 .block_content {\n    padding: 26px 26px 20px 0px;\n    text-align: inherit;\n}\n.block.course7 .block_content h4.block_title {\n    margin: 0;\n}\n.block.course7 .block_content a.button {\nborder-color: #ff4177 !important;\n    font-size: 12px !important;\n    color: #FFFFFF !important;\nbackground-color: #ff4177 !important;\n    opacity: 1;\n    border-radius: 0;\n}\n.block.course7 .block_content strong{\n    display: none;\n}\n\n\n@media (max-width:1024px){\n.banner-text .elementor-widget-container {padding: 0px 0px 0px 20px !important;}\n.instructor-form-text h2{font-size: 24px !important;}\n.instructor-form-text{margin-left: 20px;margin-right:20px;}\n.itext{font-size: 12px;}\n.wplms_registration_form {margin-right: 20px;}\ntestimonial-contet{padding-left:20px;}\n.testimonial_item:before {padding: 8px 15px 8px 20px;}\n.app-block{padding-top: 100px !important;}\n.countdown{margin-top: 40px;margin-right: 80px;}\n.app-image{padding-left: 20px;}\n.counter {margin-left: -60px !important;}\n.registration-block{margin:0 30px;}\n.block .block_content {bottom: 0px;height: 100%;}\n}\n.click-video{\nposition:absolute;\nz-index:1;\nheight:100%;\nwidth:100%;\ntop:100%;\ntransform:translate(0,-70%);\n}\n.click-video-image{position:relative;}\n\n\n@media (max-width:768px){\n\n.banner-text {top: 0%;}\n.banner-text .button{margin-top:10px;}\n#banner-img img{width:50%;float:left;}\n.countdown {margin: auto;}\n.counter {margin-left: auto !important;}\n.handpicked-text{display:none;}\n.grid li .block.course7 {margin: 0px 0 25px;}\n.countdown .elementor-widget-container {\nwidth: 186px;top: 15px;background-position-y: -32px;}\n.countdown .elementor-shortcode {font-size: 25px;}\n.numscroller {font-size: 30px;}\ntesti-block {padding: 0px 0px 20px 0px !important;}\n.registration-block,.wplms_registration_form{margin:0px;}\n.testimonial p {padding-top: 15px;}\n.instructor-form-text {padding-bottom: 20px;}\n.shaper1 {height: 0px;}\n}\n\n@media (max-width:414px){\nheader.sleek.transparent.fix.fixed{padding-top:10px;}\n.wplms_registration_form {margin-right: 0;margin-top: 40px;}\n.testimonial_item:before {margin: -18px auto 0px;font-size: 40px;}\n.testimonial p {padding-bottom: 5px;padding-top: 0px;}\n.app-store .mobile-image img{margin-top:175px;}\n.block_content {padding: 8px 26px 8px 0px;}\n.subs{padding-left: 25px;}\n.block_content .button {margin-top: 8px;}\np.block_description {-webkit-line-clamp: 2;}\n.video-iframe{margin-top:85px;}\n.countdown .elementor-widget-container {\nwidth: 100%;top: -90px;background-position-y: -80px;position: relative;height: 200px;}\n.countdown .elementor-shortcode {padding-top: 40px;}\n.banner-text h3 {font-size: 22px;}\n.app-block {padding-top: 0px !important;margin-top: 100px !important;}\n.example-1 i {width: 50px;height: 50px;\nfont: 25px/70px 'Barlow Semi Condensed', sans-serif;line-height: 50px;}\n.home .block_content {\n    padding: 13px 26px 20px 0px;\n}\n}\n\n@media (max-width:375px){\n#video-block img{height: 250px;}\n.testimonial p {font-size: 14px;}\n.block_content strong {padding-left: 25px;}\n.block_content strong {font-size: 11px;}\n.home .block_title a {\n    font-size: 17px;\n    -webkit-line-clamp: inherit;}\n.home p.block_description{display:none;}\n}\n\n@media (max-width:360px){\n.countdown .elementor-shortcode {padding-top: 20px;}\n.vibe_countdown {margin: 4rem 0 !important;}\n}\n\n@media (max-width: 320px){\n.countdown .elementor-shortcode {padding-top: 8px;}\n.digit {position: relative;float: left;width: 2rem;height: 3rem;background-color: #ff4177;\ncolor: #FFFFFF;border-radius: 0.2rem;text-align: center;margin-right: 0px;font-size:1.5rem;}\n.digit{width:1.5rem !important;}\n}.rtl .vibe_countdown{  \ntext-align:right !important;\n}\n\n}",
+    "logo_top_padding": "4",
+    "logo_bottom_padding": "10",
+    "nav_padding": "28",
+    "top_nav_font": "Rubik-regular-latin",
+    "nav_font": "Rubik-300-latin",
+    "body_font_size": "14",
+    "single_menu_font_family": "Rubik-regular-latin",
+    "heading_font": "Rubik-500-latin",
+    "price_color": "#ff4177",
+    "main_button_color": "#ff4177"
+  },
+  "wplms_registration_forms": {
+    "signup-form": {
+      "settings": {
+        "hide_username": "on",
+        "password_meter": "on",
+        "google_captcha": "on",
+        "custom_activation_mail": "10",
+        "default_role": "",
+        "save_form_settings": "Save"
+      },
+      "fields": [
+        "Name"
+      ]
+    }
+  },
+  "wplms_bp_emails": "3.9.2",
+  "woocommerce_cart_redirect_after_add": "yes",
+  "woocommerce_enable_ajax_add_to_cart": "no"
+}
