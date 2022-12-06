@@ -62,6 +62,7 @@ get_template_part('vibe','options');
 
 function timer_function( $atts ){
 	$id = $atts['id'];
+	ob_start();
 	?>
 	
 	<div class="foy-countdown">
@@ -96,7 +97,9 @@ function timer_function( $atts ){
 			</div>
 		</div>
 	</div>
-	<?php	 
+	<?php
+	$output = ob_get_clean();
+	return $output;	 
 }
 add_shortcode( 'timer-html', 'timer_function' );
 
@@ -106,7 +109,7 @@ function timer_function1( $atts ){
 	$id = $atts['id'];
 	global $wpdb;
 	date_default_timezone_set("Asia/Dhaka");
-	echo date_default_timezone_get();
+	// echo date_default_timezone_get();
 	$current_date = date('Y-m-d H:i:s');
 	$results = $wpdb->get_results("SELECT * FROM wp_timer WHERE id = $id");
 	// $wpdb->insert('wp_timer', array('id' => 1, 'end_time' =>  )); 
@@ -140,9 +143,8 @@ function timer_function1( $atts ){
 				var here = new Date();
 				// change default timezone
 				var now = changeTimezone(here, "Asia/Dhaka").getTime();
-				console.log("Here"+here);
-				console.log("Now"+changeTimezone(here, "Asia/Dhaka"));
-
+				// console.log("Here"+here);
+				// console.log("Now"+changeTimezone(here, "Asia/Dhaka"));
 
 				// Find the distance between now and the count down date
 				var distance = countDownDate - now;
@@ -215,63 +217,80 @@ function timer_function1( $atts ){
 }
 add_shortcode( 'foy-timer', 'timer_function1' );
 
+function check_datatype(){
+	global $wpdb;
+	// $results = $wpdb->get_results("SELECT * FROM wp_datatype where my_type REGEXP '[0-9]+'");
+	$results = $wpdb->get_results("SELECT my_type FROM wp_datatype where my_type REGEXP '[[:digit:]]'");
+	// $results = $wpdb->get_results("SELECT * FROM wp_datatype where my_type > 0");
+	// dd($results);
+	foreach ($results as $result){
+		$data =  $result->my_type;
+		// $type = gettype($data);
+		$type = is_numeric($data) ? "Number" : "String"; 
+		echo $type;
+	} 
+}
+add_shortcode( 'foy_check_datatype', 'check_datatype' );
+
+
+
 
 
 function popup_function1( $atts ){
 	  ?>
-	  <div class="foy-pop row align-items-center">
-      <div class="col-md-5 col-sm-12 foy-pop-left">
-        <div class="foy-left-contents">
-          <img class="foy-d-block" src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Group-1000002812-1.png">
-          <img class="foy-divider" src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Rectangle-3063-1.png">
-          <h2>
-            Registering for this site is easy. Just fill in the fields below, and we'll get a new account set up for you in no time.
-          </h2>
-          <img src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Group-1000002811-1.png">
-        </div>
-      </div>
-      <div class="col-md-7 col-sm-12 foy-pop-right">
-        <h2>
-          Sign in to your One Education account
-        </h2>
-        <div class="foy-right-contents">
-          <form name="login-form" id="vbp-login-form" class="standard-form" action="<?php echo apply_filters('wplms_login_widget_action',site_url( 'wp-login.php', 'login_post' )); ?>" method="post">
-            <div class="inside_login_form">
-              <input type="text" name="log" id="side-user-login" class="input" tabindex="1" value="<?php echo esc_attr( stripslashes( $user_login ) ); ?>" placeholder="Username"/>
-            
-              <input type="password" tabindex="2" name="pwd" id="sidebar-user-pass" class="input" value="" placeholder="Password"/>
-        
-              <div class="checkbox small">
-                  <input type="checkbox" name="sidebar-rememberme" id="sidebar-rememberme" value="forever" /><label for="sidebar-rememberme"><?php _e( 'Keep me signed in until I sign out', 'vibe' ); ?></label>
-              </div>
-              
-              <?php do_action( 'bp_sidebar_login_form' ); ?>
-              
-              <input type="submit" name="user-submit" id="sidebar-wp-submit" data-security="<?php echo wp_create_nonce('wplms_signon'); ?>" value="<?php _e( 'Sign In','vibe' ); ?>" tabindex="100" />
-              <input type="hidden" name="user-cookie" value="1" />
-              
-              <div>
-                <a href="<?php echo wp_lostpassword_url(); ?>" tabindex="5" class="tip vbpforgot" title="<?php _e('Forgot Password','vibe'); ?>">
-                  Forgot Password?
-                </a>
-              </div>
-              <div class="foy-right-bottom">
-                <div class="foy-rb-top">
-                  <hr>
-                  <p>OR CONTINUE WITH</p>
-                  <hr>
-                </div>
-                <div class="foy-signup">
-                   <p>Not a member yet?<a href="https://www.oneeducation.org.uk/register/" class="foy-su"> Sign up</a></p>
-                </div>
-              </div>
-            </div>    
-          </form>
-        </div>
-        
-      </div>
+	<div class="foy-pop row align-items-center">
+		<div class="col-md-5 col-sm-12 foy-pop-left">
+		<div class="foy-left-contents">
+			<img class="foy-d-block" src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Group-1000002812-1.png">
+			<img class="foy-divider" src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Rectangle-3063-1.png">
+			<h2>
+			Registering for this site is easy. Just fill in the fields below, and we'll get a new account set up for you in no time.
+			</h2>
+			<img src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Group-1000002811-1.png">
+		</div>
+		</div>
+		<div class="col-md-7 col-sm-12 foy-pop-right">
+		<h2>
+			Sign in to your One Education account
+		</h2>
+		<div class="foy-right-contents">
+			<form name="login-form" id="vbp-login-form" class="standard-form" action="<?php echo apply_filters('wplms_login_widget_action',site_url( 'wp-login.php', 'login_post' )); ?>" method="post">
+			<div class="inside_login_form">
+				<input type="text" name="log" id="side-user-login" class="input" tabindex="1" value="<?php echo esc_attr( stripslashes( $user_login ) ); ?>" placeholder="Username"/>
+			
+				<input type="password" tabindex="2" name="pwd" id="sidebar-user-pass" class="input" value="" placeholder="Password"/>
+		
+				<div class="checkbox small">
+					<input type="checkbox" name="sidebar-rememberme" id="sidebar-rememberme" value="forever" /><label for="sidebar-rememberme"><?php _e( 'Keep me signed in until I sign out', 'vibe' ); ?></label>
+				</div>
+				
+				<?php do_action( 'bp_sidebar_login_form' ); ?>
+				
+				<input type="submit" name="user-submit" id="sidebar-wp-submit" data-security="<?php echo wp_create_nonce('wplms_signon'); ?>" value="<?php _e( 'Sign In','vibe' ); ?>" tabindex="100" />
+				<input type="hidden" name="user-cookie" value="1" />
+				
+				<div>
+				<a href="<?php echo wp_lostpassword_url(); ?>" tabindex="5" class="tip vbpforgot" title="<?php _e('Forgot Password','vibe'); ?>">
+					Forgot Password?
+				</a>
+				</div>
+				<div class="foy-right-bottom">
+				<div class="foy-rb-top">
+					<hr>
+					<p>OR CONTINUE WITH</p>
+					<hr>
+				</div>
+				<div class="foy-signup">
+					<p>Not a member yet?<a href="https://www.oneeducation.org.uk/register/" class="foy-su"> Sign up</a></p>
+				</div>
+				</div>
+			</div>    
+			</form>
+		</div>
+		
+		</div>
     </div> 
-	  <?php
+	<?php
 }
 add_shortcode( 'login-popup', 'popup_function1' );
 
@@ -331,7 +350,7 @@ function popup_function(){ ?>
 	   
 add_shortcode('foy_lr', 'popup_function');
 
-function register_my_session(){
+function foy_register_session(){
     if(!session_id() ) {
         session_start();
     }
@@ -343,24 +362,24 @@ function register_my_session(){
 		unset($_SESSION['expire']);
 	}
 }
-add_action('init', 'register_my_session');
+add_action('init', 'foy_register_session');
 
 //saving Ajax Data
-function save_enquiry_form_action() {
+function foy_save_enquiry_form_action() {
 	unset($_SESSION['coupon']);
-	if(isset($_REQUEST)){
-		$coupon = $_REQUEST['code'];
+	if(isset($_REQUEST['coupon'])){
+		$coupon = $_REQUEST['coupon'];
 		$_SESSION['coupon'] = $coupon;
-		echo $_REQUEST['code'];
+		echo "Request: ".$_REQUEST['coupon'];
+		echo " Session: ".$_SESSION['coupon'];
 		// Destroying session after 30 minute
 		$_SESSION['start'] = time();
 		$_SESSION['expire'] = time() + (30 * 60);
 	}
 	die();
 }
-add_action('wp_ajax_save_post_details_form','save_enquiry_form_action');
-add_action('wp_ajax_nopriv_save_post_details_form','save_enquiry_form_action');
-
+add_action('wp_ajax_save_post_details_form','foy_save_enquiry_form_action');
+add_action('wp_ajax_nopriv_save_post_details_form','foy_save_enquiry_form_action');
 
 // to automatically apply coupon
 function foy_apply_coupon() {
@@ -401,7 +420,8 @@ function data_fetch(){
 		'search_prod_title' => $keyword,
 		'meta_query' => array(
 			array(
-				'key' => 'average_rating',
+				// 'key' => 'average_rating',
+				'key' => 'vibe_students',
 			),
 			array(
 				'key' => 'vibe_product',
@@ -409,9 +429,8 @@ function data_fetch(){
 				'compare' => 'NOT IN'
 			)
 		),
-		'order' => "DESC",
+		'order' => 'DESC',
 		'posts_per_page' => 10,
-		
 	);
 	add_filter('posts_where', 'title_filter', 10, 2 );
 	$the_query = new WP_Query($args);
@@ -423,7 +442,7 @@ function data_fetch(){
 		// echo "<pre>";
 		// var_dump($meta);
 		// echo "</pre>";
-		$product_meta = get_post_meta(get_the_ID(), 'vibe_product', true);
+		$product_meta = get_post_meta(get_the_ID(), 'vibe_students', true);
 		echo "<pre>";
 		var_dump($product_meta);
 		echo "</pre>";

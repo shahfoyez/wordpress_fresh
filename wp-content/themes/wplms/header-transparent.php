@@ -314,15 +314,19 @@ if (!defined('ABSPATH')) exit;
                                             }
                                             ?>
 
-                                            <li><a href="<?php bp_loggedin_user_link(); ?>" class="smallimg vbplogin"><?php $n = vbp_current_user_notification_count();
-                                            echo ((isset($n) && $n) ? '<em></em>' : '');
-                                            bp_loggedin_user_avatar('type=full'); ?><span><?php bp_loggedin_user_fullname(); ?></span></a></li>
+                                            <li>
+                                                <a href="<?php bp_loggedin_user_link(); ?>" class="smallimg vbplogin">
+                                                    <?php $n = vbp_current_user_notification_count();
+                                                    echo ((isset($n) && $n) ? '<em></em>' : '');
+                                                    bp_loggedin_user_avatar('type=full'); ?>
+                                                    <span><?php bp_loggedin_user_fullname(); ?></span>
+                                                </a>
+                                        </li>
                                         </ul>
                                     <?php
                                     else :
                                     ?>
                                         <ul class="topmenu">
-
                                             <?php
                                             if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option('active_plugins')))  || (function_exists('vibe_check_plugin_installed') && vibe_check_plugin_installed('woocommerce/woocommerce.php')) && $show_cart) {
                                                 global $woocommerce;
@@ -475,7 +479,7 @@ if (!defined('ABSPATH')) exit;
                 function foyFunction(){
                     jQuery('#foy-loading').css( 'display', 'block' );
                     var keyword = jQuery('#s').val();
-                    if(keyword.length < 4){
+                    if(keyword.length < 3){
                         jQuery('#foy-suggestion-box').html("");
                         jQuery('#foy-suggestion-box').css( 'display', 'none' );
                         jQuery('#foy-loading').css( 'display', 'none' );
