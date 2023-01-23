@@ -263,7 +263,7 @@
         color: #83c11f !important;
         font-weight: 500;
     }
-    .logged-out #vibe_bp_login.pop_login.active label {
+    #signup_form label {
         display: none;
     }
      
@@ -311,9 +311,9 @@
         .sleek .foy-vibe_bp_login {
             transform: translateY(5%) !important;
         }
-        .foy-pop-left{
+        /* .foy-pop-left{
             display: none;
-        }
+        } */
         .foy-pop-right {
             padding: 15px 20px 0px 20px;
         }
@@ -325,6 +325,7 @@
         }
     }   
 </style>
+
 <?php
 if ( is_user_logged_in() ) :
 	do_action( 'bp_before_sidebar_me' ); ?>
@@ -416,11 +417,6 @@ else :
                 <h1 class="login-title">Welcome Back!</h1>
                 <h1 class="login-title-bot">What will you learn today? Find out, with Alison.</h1>
             </div>
-
-
-
-
-
             <ul class="nav nav-tabs ebtab foy_pop_ul">
                 <li class="active foy_tab_li"><a data-toggle="tab" href="#menu0">Sign In</a></li>
                 <li class="foy_tab_li"><a data-toggle="tab" href="#menu1">Sign Up</a></li>
@@ -430,9 +426,7 @@ else :
                     <div class="col-md-6 col-sm-12 foy-pop-left">
                         <div class="foy-left-contents">
                             <img class="foy-d-block" src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Group-1000002812-1.png">
-                            <h2>
-                                Registering for this site is easy. Just fill in the fields below, and we'll get a new account set up for you in no time.
-                            </h2>
+                            <?php echo do_shortcode('[nextend_social_login]'); ?>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 foy-pop-right">
@@ -480,8 +474,6 @@ else :
                             </h2>
                         </div>
                     </div>
-                     
-                     
                     <div class="col-md-6 col-sm-12 foy-pop-right">
                         <h2>Create a new account here</h2>
                         <div class="foy-right-contents">
@@ -492,10 +484,6 @@ else :
             </div>
         </div>
 	</div>
-
-
-
-
     <script>
         document.getElementById("foy-close").addEventListener("click", ()=>{
             document.getElementById("vibe_bp_login").classList.remove("active");

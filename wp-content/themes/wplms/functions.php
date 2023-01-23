@@ -9,7 +9,7 @@ if(!defined('WPLMS_THEME_FILE_INCLUDE_PATH')){
 	
 	//define('WPLMS_THEME_FILE_INCLUDE_PATH',get_stylesheet_directory());
 }
-
+// require_once get_stylesheet_directory() . '/custom-class.php';
 if(defined('WPLMS_THEME_FILE_INCLUDE_PATH')){
 	// Essentials
 	include_once WPLMS_THEME_FILE_INCLUDE_PATH.'/includes/config.php';
@@ -237,117 +237,117 @@ add_shortcode( 'foy_check_datatype', 'check_datatype' );
 
 
 function popup_function1( $atts ){
-	  ?>
-	<div class="foy-pop row align-items-center">
-		<div class="col-md-5 col-sm-12 foy-pop-left">
-		<div class="foy-left-contents">
-			<img class="foy-d-block" src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Group-1000002812-1.png">
-			<img class="foy-divider" src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Rectangle-3063-1.png">
-			<h2>
-			Registering for this site is easy. Just fill in the fields below, and we'll get a new account set up for you in no time.
-			</h2>
-			<img src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Group-1000002811-1.png">
-		</div>
-		</div>
-		<div class="col-md-7 col-sm-12 foy-pop-right">
-		<h2>
-			Sign in to your One Education account
-		</h2>
-		<div class="foy-right-contents">
-			<form name="login-form" id="vbp-login-form" class="standard-form" action="<?php echo apply_filters('wplms_login_widget_action',site_url( 'wp-login.php', 'login_post' )); ?>" method="post">
-			<div class="inside_login_form">
-				<input type="text" name="log" id="side-user-login" class="input" tabindex="1" value="<?php echo esc_attr( stripslashes( $user_login ) ); ?>" placeholder="Username"/>
-			
-				<input type="password" tabindex="2" name="pwd" id="sidebar-user-pass" class="input" value="" placeholder="Password"/>
-		
-				<div class="checkbox small">
-					<input type="checkbox" name="sidebar-rememberme" id="sidebar-rememberme" value="forever" /><label for="sidebar-rememberme"><?php _e( 'Keep me signed in until I sign out', 'vibe' ); ?></label>
-				</div>
-				
-				<?php do_action( 'bp_sidebar_login_form' ); ?>
-				
-				<input type="submit" name="user-submit" id="sidebar-wp-submit" data-security="<?php echo wp_create_nonce('wplms_signon'); ?>" value="<?php _e( 'Sign In','vibe' ); ?>" tabindex="100" />
-				<input type="hidden" name="user-cookie" value="1" />
-				
-				<div>
-				<a href="<?php echo wp_lostpassword_url(); ?>" tabindex="5" class="tip vbpforgot" title="<?php _e('Forgot Password','vibe'); ?>">
-					Forgot Password?
-				</a>
-				</div>
-				<div class="foy-right-bottom">
-				<div class="foy-rb-top">
-					<hr>
-					<p>OR CONTINUE WITH</p>
-					<hr>
-				</div>
-				<div class="foy-signup">
-					<p>Not a member yet?<a href="https://www.oneeducation.org.uk/register/" class="foy-su"> Sign up</a></p>
-				</div>
-				</div>
-			</div>    
-			</form>
-		</div>
-		
-		</div>
-    </div> 
-	<?php
+	?>
+  <div class="foy-pop row align-items-center">
+	  <div class="col-md-5 col-sm-12 foy-pop-left">
+	  <div class="foy-left-contents">
+		  <img class="foy-d-block" src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Group-1000002812-1.png">
+		  <img class="foy-divider" src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Rectangle-3063-1.png">
+		  <h2>
+		  Registering for this site is easy. Just fill in the fields below, and we'll get a new account set up for you in no time.
+		  </h2>
+		  <img src="https://www.oneeducation.org.uk/wp-content/uploads/2022/10/Group-1000002811-1.png">
+	  </div>
+	  </div>
+	  <div class="col-md-7 col-sm-12 foy-pop-right">
+	  <h2>
+		  Sign in to your One Education account
+	  </h2>
+	  <div class="foy-right-contents">
+		  <form name="login-form" id="vbp-login-form" class="standard-form" action="<?php echo apply_filters('wplms_login_widget_action',site_url( 'wp-login.php', 'login_post' )); ?>" method="post">
+		  <div class="inside_login_form">
+			  <input type="text" name="log" id="side-user-login" class="input" tabindex="1" value="<?php echo esc_attr( stripslashes( $user_login ) ); ?>" placeholder="Username"/>
+		  
+			  <input type="password" tabindex="2" name="pwd" id="sidebar-user-pass" class="input" value="" placeholder="Password"/>
+	  
+			  <div class="checkbox small">
+				  <input type="checkbox" name="sidebar-rememberme" id="sidebar-rememberme" value="forever" /><label for="sidebar-rememberme"><?php _e( 'Keep me signed in until I sign out', 'vibe' ); ?></label>
+			  </div>
+			  
+			  <?php do_action( 'bp_sidebar_login_form' ); ?>
+			  
+			  <input type="submit" name="user-submit" id="sidebar-wp-submit" data-security="<?php echo wp_create_nonce('wplms_signon'); ?>" value="<?php _e( 'Sign In','vibe' ); ?>" tabindex="100" />
+			  <input type="hidden" name="user-cookie" value="1" />
+			  
+			  <div>
+			  <a href="<?php echo wp_lostpassword_url(); ?>" tabindex="5" class="tip vbpforgot" title="<?php _e('Forgot Password','vibe'); ?>">
+				  Forgot Password?
+			  </a>
+			  </div>
+			  <div class="foy-right-bottom">
+			  <div class="foy-rb-top">
+				  <hr>
+				  <p>OR CONTINUE WITH</p>
+				  <hr>
+			  </div>
+			  <div class="foy-signup">
+				  <p>Not a member yet?<a href="https://www.oneeducation.org.uk/register/" class="foy-su"> Sign up</a></p>
+			  </div>
+			  </div>
+		  </div>    
+		  </form>
+	  </div>
+	  
+	  </div>
+  </div> 
+  <?php
 }
 add_shortcode( 'login-popup', 'popup_function1' );
 
 
 
 function popup_function(){ ?>
-	<header class="mooc <?php if(isset($fix) && $fix){echo 'fix';} ?>">
-		<ul class="topmenu">
-			<?php do_action('wplms_header_top_login'); ?>
-			<?php
-				if ( function_exists('bp_loggedin_user_link') && is_user_logged_in() ) :
-			?>
-			<li>
-				<a href="<?php bp_loggedin_user_link(); ?>" class="smallimg vbplogin"><?php $n=vbp_current_user_notification_count(); echo ((isset($n) && $n)?'<em></em>':''); bp_loggedin_user_avatar( 'type=full' ); ?>
-					<span><?php bp_loggedin_user_fullname(); ?></span>
-				</a>
-			</li>
-			<?php
-				else:
-			?>
-				<li>
-					<a href="#login" rel="nofollow" class=" vbplogin"><span><?php _e('LOGIN','vibe'); ?></span></a>
-				</li>
-			<?php
-				endif;    
-			?>
-		</ul>
-		<?php
-			$style = vibe_get_login_style();
-			if(empty($style)){
-				$style='default_login';
-			}
-		?>
-		<?php
-			if ( function_exists('bp_loggedin_user_link') && is_user_logged_in() ) {
-			?>
-			<div id="vibe_bp_login" class="<?php echo vibe_sanitizer($style,'text'); ?>">
-				<?php
-					vibe_include_template("login/$style.php");
-				?>
-			</div>
-		<?php } ?>
-		<!-- login popup -->
-		<?php
-			if ( !is_user_logged_in() ){ ?>
-				<div class="foy-login-container">
-					<div id="vibe_bp_login" class="<?php echo vibe_sanitizer($style,'text'); ?> foy_vibe_bp_login">
-						<?php
-							vibe_include_template("login/$style.php");
-						?>
-					</div>
-				</div>
-		<?php } ?>
-		<!-- login popup ends -->
-	</header>
+  <header class="mooc <?php if(isset($fix) && $fix){echo 'fix';} ?>">
+	  <ul class="topmenu">
+		  <?php do_action('wplms_header_top_login'); ?>
+		  <?php
+			  if ( function_exists('bp_loggedin_user_link') && is_user_logged_in() ) :
+		  ?>
+		  <li>
+			  <a href="<?php bp_loggedin_user_link(); ?>" class="smallimg vbplogin"><?php $n=vbp_current_user_notification_count(); echo ((isset($n) && $n)?'<em></em>':''); bp_loggedin_user_avatar( 'type=full' ); ?>
+				  <span><?php bp_loggedin_user_fullname(); ?></span>
+			  </a>
+		  </li>
+		  <?php
+			  else:
+		  ?>
+			  <li>
+				  <a href="#login" rel="nofollow" class=" vbplogin"><span><?php _e('LOGIN','vibe'); ?></span></a>
+			  </li>
+		  <?php
+			  endif;    
+		  ?>
+	  </ul>
+	  <?php
+		  $style = vibe_get_login_style();
+		  if(empty($style)){
+			  $style='default_login';
+		  }
+	  ?>
+	  <?php
+		  if ( function_exists('bp_loggedin_user_link') && is_user_logged_in() ) {
+		  ?>
+		  <div id="vibe_bp_login" class="<?php echo vibe_sanitizer($style,'text'); ?>">
+			  <?php
+				  vibe_include_template("login/$style.php");
+			  ?>
+		  </div>
+	  <?php } ?>
+	  <!-- login popup -->
+	  <?php
+		  if ( !is_user_logged_in() ){ ?>
+			  <div class="foy-login-container">
+				  <div id="vibe_bp_login" class="<?php echo vibe_sanitizer($style,'text'); ?> foy_vibe_bp_login">
+					  <?php
+						  vibe_include_template("login/$style.php");
+					  ?>
+				  </div>
+			  </div>
+	  <?php } ?>
+	  <!-- login popup ends -->
+  </header>
 <?php }
-	   
+	 
 add_shortcode('foy_lr', 'popup_function');
 
 function foy_register_session(){
@@ -477,3 +477,23 @@ function ses(){
 	</h1>
 <?php }   
 add_shortcode('foy_ses', 'ses');
+
+add_action('wp_head', function(){
+    ?>
+    <script>
+    jQuery(document).ready(function($){
+        // jQuery(window).load(function() {
+            jQuery('.course.mycourse').removeClass('loading');
+            jQuery('ul#course-list').removeClass('loading');
+        // });
+    
+    });
+    </script>
+    <?php
+});
+
+// function custom_class_body( $classes ) {
+//     $classes[] = 'custom-class';
+//     return $classes;
+// }
+// add_filter( 'body_class', 'custom_class_body' );

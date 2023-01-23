@@ -35,5 +35,18 @@ if(class_exists('WPLMS_Customizer_Plugin_Class'))
     // instantiate the plugin class
     $wplms_customizer = new WPLMS_Customizer_Plugin_Class();
 }
+add_action('wp_head', function(){
+    ?>
+    <script>
+    jQuery(document).ready(function($){
+        jQuery(window).load(function() {
+            jQuery('.course.mycourse').removeClass('loading');
+            jQuery('ul#course-list').removeClass('loading');
+        });
+    
+    });
+    </script>
+    <?php
+});
 
 

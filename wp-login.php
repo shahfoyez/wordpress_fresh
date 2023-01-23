@@ -624,11 +624,6 @@ switch ( $action ) {
 
 		<form class="admin-email-confirm-form" name="admin-email-confirm-form" action="<?php echo esc_url( site_url( 'wp-login.php?action=confirm_admin_email', 'login_post' ) ); ?>" method="post">
 			<?php
-			/**
-			 * Fires inside the admin-email-confirm-form form tags, before the hidden fields.
-			 *
-			 * @since 5.3.0
-			 */
 			do_action( 'admin_email_confirm_form' );
 
 			wp_nonce_field( 'confirm_admin_email', 'confirm_admin_email_nonce' );

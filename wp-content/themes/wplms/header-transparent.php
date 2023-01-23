@@ -501,3 +501,43 @@ if (!defined('ABSPATH')) exit;
                     }
                 }
             </script>
+
+
+
+<div class="searchform">
+    <form id="search" action="">
+        <input type="hidden" name="post_type" value="course">
+        <input type="text" class="s" id="s" name="s" placeholder="Search over 3000+ courses..." value="" autocomplete="off" onkeyup="foyFunction()">
+        <div id="foy-loading" class="spinner-border" role="status">
+            <img src="http://localhost/fresh/wp-content/uploads/2022/11/giphy-4.gif">
+        </div>
+        <button type="submit" class="sbtn"><i class="fa fa-search"></i></button>
+            
+    </form>
+    <div class="foy-suggestion-box" id="foy-suggestion-box">
+        <!-- course suggestion -->
+    </div>
+</div>
+
+<div class="searchform">
+        <form id="search" action="">
+            <input type="hidden" name="post_type" value="course">
+            <input type="text" class="s" id="s" name="s" placeholder="
+What do you want to learn today? " value="">
+        </form>
+    </div>
+
+<div class="for-adams-course-search-form-adams-top-nav">
+    <form id="search" action="">
+        <input type="hidden" name="post_type" value="course">
+        <input type="text" class="s" id="s" name="s" placeholder="Search over 3000+ courses..." value="" autocomplete="off" onkeyup="foyFunction()">
+        <div id="foy-loading" class="spinner-border" role="status">
+            <img src="http://localhost/fresh/wp-content/uploads/2022/11/giphy-4.gif">
+        </div>
+        <button type="submit" class="sbtn"><i class="fa fa-search"></i></button>
+            
+    </form>
+    <div class="foy-suggestion-box" id="foy-suggestion-box">
+        <!-- course suggestion -->
+    </div>
+</div>

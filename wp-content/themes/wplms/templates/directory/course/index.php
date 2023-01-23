@@ -9,6 +9,8 @@ if(!isset($title) || !$title || (vibe_validate($title))){
 
 ?>
 <section id="title">
+<h1>dnvoishcvusdcvu</h1> 
+
 	<?php do_action('wplms_before_title'); ?>
     <div class="<?php echo vibe_get_container(); ?>">
         <div class="row">
@@ -130,4 +132,17 @@ if(!isset($title) || !$title || (vibe_validate($title))){
 </div><!-- #content -->
 </div>
 </section>
+<script>
+ jQuery(document).ready(function(){
+	console.log("shjduiws");
+
+	//  jQuery(window).load(function() {
+	// 	console.log("njkndfk");
+		 jQuery('.course.mycourse').addClass('loading');
+		 jQuery('ul#course-list').removeClass('loading');
+	//  });
+ 
+ });
+ </script>
 <?php
+ 

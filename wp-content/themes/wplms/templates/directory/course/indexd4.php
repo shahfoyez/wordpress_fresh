@@ -11,6 +11,8 @@ if($header == 'transparent' || $header == 'generic'){
 ?>
 <section id="content">
 	<div id="buddypress">
+	<h1>dnvoishcvusdcvu</h1> 
+
     <div class="<?php echo vibe_get_container(); ?>">
 
 	<?php do_action( 'bp_before_directory_course_page' ); ?>
