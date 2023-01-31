@@ -506,10 +506,21 @@ add_action('wp_head', function () {
 <?php
 });
 
-// function custom_class_body( $classes ) {
-//     $classes[] = 'custom-class';
-//     return $classes;
+// add_filter( 'woocommerce_cart_totals_coupon_html', 'add_remove_coupon_button_below_coupon_name', 10, 2 );
+// function add_remove_coupon_button_below_coupon_name( $html, $coupon ) {
+//   if ( in_array( $coupon->get_code(), array( 'foy100' ) ) ) {
+//     $html .= '<a href="' . esc_url( add_query_arg( 'remove_coupon', $coupon->get_code() ) ) . '" class="remove_coupon">Remove Coupon</a>';
+//   }
+//   return $html;
 // }
-// add_filter( 'body_class', 'custom_class_body' );
 
-// 20 usefull javascript functions
+ 
+add_action( 'woocommerce_after_cart_table', 'add_remove_coupon_button' );
+function add_remove_coupon_button() {
+	$coupons = ['foy100', 'foy200', 'foy300'];
+	foreach( $coupons as $coupon){
+		if ( WC()->cart->has_discount( $coupon )) {
+			echo '<a href="' . esc_url( add_query_arg( 'remove_coupon', $coupon ) ) . '" class="remove_coupon button">Remove Coupon</a>';
+		}
+	}
+}

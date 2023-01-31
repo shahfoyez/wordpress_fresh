@@ -1,0 +1,51 @@
+2023-01-31T07:06:02+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_cart_remove_coupon_url() in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php:520
+Stack trace:
+#0 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): add_remove_coupon_button('')
+#1 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\fresh\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\fresh\wp-content\themes\wplms\woocommerce\cart\cart.php(163): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#6 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#7 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#8 C:\xampp\htdocs\fresh\wp-includes\shortcodes.php(355): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 C:\xampp\htdocs\fresh\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#11 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ca...')
+#12 C:\xampp\htdocs\fresh\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#13 C:\xampp\htdocs\fresh\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#14 C:\xampp\htdocs\fresh\wp-content\themes\wplms\page.php(43): the_content()
+#15 C:\xampp\htdocs\fresh\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\fresh\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\fresh\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 520
+
+2023-01-31T08:38:56+00:00 CRITICAL Uncaught TypeError: html_entity_decode(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): html_entity_decode(Array)
+#1 C:\xampp\htdocs\fresh\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php(364): apply_filters('woocommerce_cou...', Array)
+#3 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1532): wc_format_coupon_code(Array)
+#4 C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php(521): WC_Cart->has_discount(Array)
+#5 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): add_remove_coupon_button('')
+#6 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\fresh\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\fresh\wp-content\themes\wplms\woocommerce\cart\cart.php(163): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#11 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#12 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#13 C:\xampp\htdocs\fresh\wp-includes\shortcodes.php(355): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#14 [internal function]: do_shortcode_tag(Array)
+#15 C:\xampp\htdocs\fresh\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#16 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ca...')
+#17 C:\xampp\htdocs\fresh\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#18 C:\xampp\htdocs\fresh\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#19 C:\xampp\htdocs\fresh\wp-content\themes\wplms\page.php(43): the_content()
+#20 C:\xampp\htdocs\fresh\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\fresh\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\fresh\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php on line 308
+
