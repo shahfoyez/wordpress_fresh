@@ -1,0 +1,50 @@
+2023-02-17T09:13:34+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\xampp\htdocs\fresh\wp-content\plugins\vibe-course-module\includes\bp-course-actions.php:1430
+Stack trace:
+#0 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(310): BP_Course_Action->bp_course_enable_access(1244)
+#1 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\fresh\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 1244, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-order.php(119): WC_Order->save()
+#6 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(961): WC_Order->payment_complete()
+#7 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1143): WC_Checkout->process_order_without_payment(1244)
+#8 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#9 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#10 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\fresh\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(89): do_action('wc_ajax_checkou...')
+#13 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#14 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#15 C:\xampp\htdocs\fresh\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\fresh\wp-includes\template-loader.php(13): do_action('template_redire...')
+#17 C:\xampp\htdocs\fresh\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\fresh\index.php(17): require('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\fresh\wp-content\plugins\vibe-course-module\includes\bp-course-actions.php on line 1430
+
+2023-02-17T09:13:47+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\xampp\htdocs\fresh\wp-content\plugins\vibe-course-module\includes\bp-course-actions.php:1430
+Stack trace:
+#0 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(310): BP_Course_Action->bp_course_enable_access(1245)
+#1 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\fresh\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 1245, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-order.php(119): WC_Order->save()
+#6 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(961): WC_Order->payment_complete()
+#7 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1143): WC_Checkout->process_order_without_payment(1245)
+#8 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#9 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#10 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\fresh\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\fresh\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(89): do_action('wc_ajax_checkou...')
+#13 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#14 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#15 C:\xampp\htdocs\fresh\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\fresh\wp-includes\template-loader.php(13): do_action('template_redire...')
+#17 C:\xampp\htdocs\fresh\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\fresh\index.php(17): require('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\fresh\wp-content\plugins\vibe-course-module\includes\bp-course-actions.php on line 1430
+
+2023-02-17T09:17:29+00:00 CRITICAL Unclosed '{' on line 551 in C:\xampp\htdocs\fresh\wp-content\themes\wplms\functions.php on line 574
+

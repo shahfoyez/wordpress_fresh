@@ -1,0 +1,28 @@
+2023-02-27T10:03:04+00:00 CRITICAL Uncaught Error: Class "BP_COURSE" not found in C:\xampp\htdocs\fresh\wp-content\plugins\vibe-course-module\includes\bp-course-template.php:713
+Stack trace:
+#0 C:\xampp\htdocs\fresh\wp-content\themes\wplms\course\course-loop.php(15): bp_course_has_items('&per_page=5&pri...')
+#1 C:\xampp\htdocs\fresh\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fresh\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#3 C:\xampp\htdocs\fresh\wp-content\themes\wplms\templates\directory\course\index.php(109): locate_template(Array, true)
+#4 C:\xampp\htdocs\fresh\wp-content\themes\wplms\includes\init.php(1026): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\fresh\wp-content\themes\wplms\course\index.php(19): vibe_include_template('directory/cours...')
+#6 C:\xampp\htdocs\fresh\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\fresh\wp-content\plugins\buddypress\bp-core\bp-core-catchuri.php(493): load_template('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\fresh\wp-content\plugins\vibe-course-module\includes\bp-course-screens.php(29): bp_core_load_template('course/index')
+#9 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): bp_course_directory_setup('')
+#10 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\fresh\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\fresh\wp-content\plugins\buddypress\bp-core\bp-core-dependency.php(359): do_action('bp_screens')
+#13 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): bp_screens('')
+#14 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp\htdocs\fresh\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\fresh\wp-content\plugins\buddypress\bp-core\bp-core-dependency.php(416): do_action('bp_template_red...')
+#17 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(308): bp_template_redirect('')
+#18 C:\xampp\htdocs\fresh\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#19 C:\xampp\htdocs\fresh\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#20 C:\xampp\htdocs\fresh\wp-includes\template-loader.php(13): do_action('template_redire...')
+#21 C:\xampp\htdocs\fresh\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\fresh\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\fresh\wp-content\plugins\vibe-course-module\includes\bp-course-template.php on line 713
+

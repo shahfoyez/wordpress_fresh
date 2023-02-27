@@ -65,7 +65,6 @@ function timer_function($atts)
 	$id = $atts['id'];
 	ob_start();
 ?>
-
 	<div class="foy-countdown">
 		<div class="foy-countdown-items">
 			<div class="foy-days">
@@ -234,10 +233,6 @@ function check_datatype()
 }
 add_shortcode('foy_check_datatype', 'check_datatype');
 
-
-
-
-
 function popup_function1($atts)
 {
 	?>
@@ -391,7 +386,7 @@ function foy_save_enquiry_form_action()
 add_action('wp_ajax_save_post_details_form', 'foy_save_enquiry_form_action');
 add_action('wp_ajax_nopriv_save_post_details_form', 'foy_save_enquiry_form_action');
 
-// to automatically apply coupon
+// to automatically apply coupon cart page
 function foy_apply_coupon()
 {
 	if ($_SESSION['coupon']) {
@@ -403,6 +398,17 @@ function foy_apply_coupon()
 	}
 }
 add_action('woocommerce_before_cart', 'foy_apply_coupon');
+// to automatically apply coupon to checkout page
+function foy_apply_coupon_checkout() {
+	if ($_SESSION['coupon']) {
+		$coupon_code = $_SESSION['coupon'];
+		if (WC()->cart->has_discount($coupon_code)) {
+			return;
+		}
+		WC()->cart->apply_coupon($coupon_code);
+	}
+}
+add_action('woocommerce_before_checkout_form', 'foy_apply_coupon_checkout');
 
 // unset session when coupon is removed
 function coupon_removed_action($coupon_code)
@@ -447,18 +453,17 @@ function data_fetch()
 	);
 	add_filter('posts_where', 'title_filter', 10, 2);
 	$the_query = new WP_Query($args);
+	// echo "<pre>";
+	// var_dump($the_query);
+	// echo "</pre>";
+
+
 	remove_filter('posts_where', 'title_filter', 10);
 
 	if ($the_query->have_posts()) {
 		while ($the_query->have_posts()) : $the_query->the_post();
-			$meta = get_post_meta(get_the_ID());
-			// echo "<pre>";
-			// var_dump($meta);
-			// echo "</pre>";
+			$meta = get_post_meta(get_the_ID()); 
 			$product_meta = get_post_meta(get_the_ID(), 'vibe_students', true);
-			echo "<pre>";
-			var_dump($product_meta);
-			echo "</pre>";
 	?>
 
 			<div class="foy-course-list">
@@ -514,7 +519,6 @@ add_action('wp_head', function () {
 //   return $html;
 // }
 
- 
 add_action( 'woocommerce_after_cart_table', 'add_remove_coupon_button' );
 function add_remove_coupon_button() {
 	$coupons = ['foy100', 'foy200', 'foy300'];
@@ -524,3 +528,47 @@ function add_remove_coupon_button() {
 		}
 	}
 }
+
+add_action( 'woocommerce_thankyou', 'my_custom_function_name', 10, 1 );
+
+function my_custom_function_name( $order_id ) {
+    // your custom code here, for example:
+    $order = wc_get_order( $order_id );
+    // do something with the order object
+}
+
+function custom_courses_query( $query ) {
+    // if ( is_post_type_archive( 'course' ) && $query->is_main_query() ) {
+		
+        $query->set( 'orderby', 'title' ); // Set the order to be by title
+        $query->set( 'order', 'DESC' ); // Set the order to be ascending
+        $query->set( 'posts_per_page', 2 ); // Set the number of courses to display per page
+    // }
+}
+add_action( 'pre_get_posts', 'custom_courses_query' );
+
+
+function exclude_courses_from_category($query) {
+    global $post;
+    $page_id = $post->ID;
+    // var_dump(is_post_type_archive( 'course' ));
+    // var_dump( is_page( 'all-courses' ) );
+    // var_dump( is_page( 0 ) );
+    // var_dump( $page_id  );
+    // var_dump( is_admin() );
+
+
+    // if( (!bp_is_my_profile() && !is_admin()) || $page_id === 'page_0' ){
+    if( !bp_is_my_profile() ){
+        $tax_query = array(
+            array(
+                'taxonomy' => 'course-cat',
+                'field'    => 'term_id',
+                'terms'    => array(46),
+                'operator' => 'NOT IN',
+            ),
+        );
+        $query->set('tax_query', $tax_query);
+    }
+}
+add_action('pre_get_posts', 'exclude_courses_from_category');
