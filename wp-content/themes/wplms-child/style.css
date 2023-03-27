@@ -1,0 +1,228 @@
+/*
+Theme Name: WPLMS Child
+Theme URI: https://wordpress.org/themes/wplms/
+Template: wplms
+Author: shah-foyez
+Author URI: https://wordpress.org/
+Description: Built on a solidly designed foundation, wplms embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of wplms wplms lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, wplms wplms will help you create a site that is uniquely yours.
+Version: 1.1.2
+Text Domain: wplms-child
+*/
+
+
+
+/* tawsif css for you */
+.for-you-steps-container {
+    text-align: center;
+}
+
+.steps-count {
+    color: #5d676e;
+}
+
+.for-you-step {
+    background: #d2d8de 0 0 no-repeat padding-box;
+    border-radius: 4px;
+    display: inline-block;
+    height: 6px;
+    width: 32px;
+}
+
+
+.for-you-step-active {
+    background: #1794c9;
+}
+
+#main-goals-inputs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.form-tab {
+    display: none;
+    padding: 20px 0;
+}
+
+#main-goals-inputs input,
+#courses-category-select input,
+#courses-sub-category-container input,
+#career-category-container input,
+#career-stages-inputs input {
+    position: absolute;
+    left: -9999px;
+}
+
+#main-goals-inputs input[type=radio]:checked+label,
+#courses-category-select input[type=checkbox]:checked+label,
+#courses-sub-category-container input[type=checkbox]:checked+label,
+#career-category-container input[type=checkbox]:checked+label,
+#career-stages-inputs input[type=radio]:checked+label {
+    border: 3px solid #1691c7;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 8%);
+}
+
+#main-goals-inputs input[type=radio]:hover+label,
+#courses-category-select input[type=checkbox]:hover+label,
+#courses-sub-category-container input[type=checkbox]:hover+label,
+#career-category-container input[type=checkbox]:hover+label,
+#career-stages-inputs input[type=radio]:hover+label {
+    border: 3px solid #1691c7;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 8%);
+}
+
+.form-tab h2 {
+    color: #465159;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+#main-goals img {
+    max-width: 100%;
+    filter: grayscale(100%);
+}
+
+#main-goals-inputs input[type=radio]:hover+label img,
+#main-goals-inputs input[type=radio]:checked+label img {
+    filter: grayscale(0%);
+}
+
+p.select-instruction {
+    color: #5d676e;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+#for-you-form label.input-label {
+    border: 3px solid transparent;
+    border-radius: 12px;
+    box-shadow: 0 0 10px hsl(0deg 0% 59% / 20%);
+    cursor: pointer;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    padding: 50px;
+    width: 350px;
+}
+
+button.questionnaire-nav-button {
+    background: #0091c7 0 0 no-repeat padding-box;
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 219px;
+    border-radius: 19px;
+    cursor: pointer;
+    border: none;
+    padding: 12px 0;
+}
+
+button#questionnaire-nav-next-one {
+    margin-left: auto;
+}
+
+.btn-nav-back {
+    border: 1px solid #b3bdc0;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: .01px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 19px;
+}
+
+button.questionnaire-nav-button:disabled {
+    background-color: #5d676e;
+    opacity: .7;
+}
+
+#main-goals-inputs,
+#courses-category-select,
+#career-category-container {
+    display: grid;
+    justify-items: center;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 0;
+}
+
+#career-stages-inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-gap: 10px;
+    margin: 50px 0;
+}
+
+#courses-sub-category-container {
+    padding: 0 20px;
+}
+
+#courses-sub-category-container h3 {
+    color: #465159;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0;
+    border-bottom: 1px solid #465159;
+}
+
+#courses-sub-category-container label.input-label {
+    border: 3px solid transparent;
+    border-radius: 12px;
+    font-size: 14px;
+    box-shadow: 0 0 10px hsl(0deg 0% 59% / 20%);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+.nav-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #main-goals-inputs,
+    #courses-category-select,
+    #career-category-container,
+    #career-stages-inputs {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    #for-you-form label.input-label {
+        margin: 0;
+    }
+
+
+
+    #courses-sub-category-container input[type=checkbox]+label {
+        margin: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) and (min-width: 599px) {
+
+    #main-goals-inputs,
+    #courses-category-select,
+    #career-category-container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* tawsif css for you */

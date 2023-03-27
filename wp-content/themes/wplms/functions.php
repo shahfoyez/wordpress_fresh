@@ -572,3 +572,24 @@ function exclude_courses_from_category($query) {
     }
 }
 add_action('pre_get_posts', 'exclude_courses_from_category');
+
+
+function custom_api_init() {
+	register_rest_route( 'foy-post/', '/data/', array(
+		'methods' => 'POST',
+		'callback' => 'foy_api_data_insert'
+	) );
+}
+add_action( 'rest_api_init', 'custom_api_init' );
+
+function foy_api_data_insert( $request ) {
+	$data = $request->get_params();
+	// return rest_ensure_response( $data );
+	global $wpdb;
+
+	$table_name = 'my_post';
+	// insert the data into the database
+	$result = $wpdb->insert($table_name, $data);
+
+	return rest_ensure_response( $result );
+}
